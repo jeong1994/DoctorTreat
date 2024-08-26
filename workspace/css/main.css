@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+iframe {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  /* z-index: 5; */
+}
+
+#main-medic {
+  width: 780px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#main-medic p {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#main-medic-content {
+  display: flex;
+}
+
+.main-content-border {
+  width: 380px;
+  height: 300px;
+  border: 0.8px solid gray;
+}
+
+.main-content-detail {
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #35F48D;
+  margin-top: 15px;
+  text-align: center;
+  white-space: nowrap; /* 줄 바꿈 방지 */
+  overflow: hidden; /* 넘치는 부분 숨기기 */
+  text-overflow: ellipsis; /* ...으로 표시 */
+  line-height: 36px;
+  cursor: pointer;
+}
+
+#main-dicease {
+  width: 780px;
+  margin: 0 auto;
+}
+
+#main-dicease p {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#main-dicease-whole {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0.8px solid gray;
+}
+
+.main-dicease-section {
+  width: 50%;
+  height: 150px;
+  background-color: aqua;
+  display: flex;
+}
+
+.main-dicease-section img {
+  width: 100px;
+  height: 50px;
+}
+
+.main-dicease-mini {
+
+}

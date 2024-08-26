@@ -12,6 +12,14 @@ header{
   position: relative;
   height: 200px;
   margin-top: 20px;
+  margin: 0 auto;
+}
+
+#header-fixed {
+  background-color: white;
+  z-index: 50;
+  position: fixed;
+  width: 100vw;
 }
 .header-holder{
   width: 100%;
