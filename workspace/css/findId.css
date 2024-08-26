@@ -3,24 +3,24 @@
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-  width: 980px; */
-} */
+  width: 980px;
+}  */
 
-/* .findId-container{
-  /* width: 80%;
-  margin: auto;
+
+
+
+
+ .findId-container{
+   width: 100vw;
+  margin:  0 auto;
   overflow: hidden;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+  
+} 
 
-header {
-  text-align: center;
-  padding: 10px 0;
-  color: #37aa8b;
-}
 
 .find-id-form {
   margin: 20px 0;
@@ -60,10 +60,10 @@ button {
 }
 
 button:hover {
-  /* background-color: #0056b3; */
-/* } */
+  background-color: #0056b3;
+}
 
-/* p{
+ p{
   font-size: 10px;
   
 }
@@ -75,7 +75,17 @@ button:hover {
 .find-id-choice{
   border: 1px solid darkgray ; 
   padding: 20px;
-}  */
+} 
+
+
+.find-id-choice a{
+list-style-type: none;
+text-decoration: none;
+color: black;
+}
+
+
+
 
 
 *{
@@ -83,141 +93,8 @@ button:hover {
   padding: 0;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
 img{
   display: block;
 }
 
-/* 헤더 시작 */
-header{
-  position: relative;
-  height: 200px;
-  margin-top: 20px;
-}
-.header-holder{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.header-container{
-  position: relative;
-  width: 980px;
-  height: 140px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-logo{
-  width: 310px;
-  height: 130px;
-  position: relative;
-  display: flex;
-  cursor: pointer;
-}
-.header-logo img{
-  height: 130px;
-
-}
-.header-hr{
-  border-top: 1px solid lightgray;
-}
-.header-logo div{
-  position: absolute;
-  height: 20px;
-  bottom: 38px;
-  left: 125px;
-  font-weight: bold;
-  letter-spacing: 5px;
-}
-
-.header-btnContainer{
-  width: 380px;
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  right: 0;
-  bottom: 35px;
-}
-.header-quickBtn{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-}
-
-.header-quickBtn img{
-  width: 45px;
-}
-
-.header-quickBtn div{
-  font-size: 13px;
-  letter-spacing: -.5px;
-}
-
-.header-navContainer{
-  align-items: center;
-  margin: 0 auto;
-  width: 980px;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-.header-menu{
-  display: flex;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.header-menu img{
-  height: 30px;
-}
-
-
-/* 푸터시작 */
-footer {
-  width: 100vw;
-  height: 200px;
-  position: absolute;
-  bottom: 0;
-  border-top: 0.7px solid #A9AEB1;
-}
-
-#footer-footer {
-  width: 50%;
-  margin: 0 auto;
-  font-size: 12px;
-}
-
-.footer-bold-first {
-  color : #71767A;
-  font-weight: bold;
-}
-
-.footer-bold-second {
-  color: #A9AEB1;
-  font-weight: bold;
-}
-.footer-medium {
-  color: #A9AEB1;
-  font-weight: 200;
-}
-
-#footer-icon {
-  display: flex;
-  gap: 18px;
-}
-
-.fab{
-  font-size: 25px;
-  cursor: pointer;
-}
-
-.fa-brands {
-  font-size: 25px;
-  cursor: pointer;
-}
-
-.fa-regular {
-  font-size: 25px;
-  cursor: pointer;
-}
