@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

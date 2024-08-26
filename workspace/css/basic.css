@@ -12,6 +12,12 @@ header{
   position: relative;
   height: 200px;
   margin-top: 20px;
+  margin: 0 auto;
+}
+
+#header-fixed {
+  position: fixed;
+  
 }
 .header-holder{
   width: 100%;
@@ -97,8 +103,6 @@ header{
 footer {
   width: 100vw;
   height: 200px;
-  position: absolute;
-  bottom: 0;
   border-top: 0.7px solid #A9AEB1;
 }
 
