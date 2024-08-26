@@ -97,8 +97,6 @@ header{
 footer {
   width: 100vw;
   height: 200px;
-  position: absolute;
-  bottom: 0;
   border-top: 0.7px solid #A9AEB1;
 }
 
