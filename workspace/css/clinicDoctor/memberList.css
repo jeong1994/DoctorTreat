@@ -1,4 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
+}
+
+main {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.memberList-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #37aa8b;
+  margin-top: 40px;
 }
