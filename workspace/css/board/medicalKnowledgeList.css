@@ -1,30 +1,35 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans KR', sans-serif;
 }
-main{
+
+main {
   width: 980px;
   height: 100%;
   margin: 0 auto;
 }
-.medicalKnowledgeList-title{
+
+.medicalKnowledgeList-title {
   font-size: 25px;
   font-weight: bold;
   color: #37aa8b;
   margin-top: 40px;
 }
-#medicalKnowledgeList-all{
+
+#medicalKnowledgeList-all {
   width: 40px;
   margin: 20px 20px 0 15px;
   font-size: 20px;
   font-weight: bold;
 }
-.medicalKnowledgeList-selectContainer{
+
+.medicalKnowledgeList-selectContainer {
   width: 195px;
   display: flex;
 }
-.medicalKnowledgeList-selectBox{
+
+.medicalKnowledgeList-selectBox {
   width: 120px;
   height: 25px;
   margin: 20px 0 0 0;
@@ -33,50 +38,59 @@ main{
   border-radius: 15px;
   background-color: lightgrey;
 }
-ul, li{
+
+ul,
+li {
   list-style-type: none;
 }
-li{
+
+li {
   margin-bottom: 60px;
   cursor: pointer;
 }
-.medicalKnowledgeList-board{
+
+.medicalKnowledgeList-board {
   width: 910px;
   height: 100%;
   margin: 50px auto;
 }
 
-.medicalKnowledgeList-boardList{
+.medicalKnowledgeList-boardList {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 10px 0;
 }
-.medicalKnowledgeList-text{
+
+.medicalKnowledgeList-text {
   margin: 0 0 0 10px;
 }
-.medicalKnowledgeList-writer img{
+
+.medicalKnowledgeList-writer img {
   display: block;
   width: 30px;
   margin: 0 10px;
 }
 
-.medicalKnowledgeList-writer{
+.medicalKnowledgeList-writer {
   margin: 15px 0;
   display: flex;
   font-size: 14px;
 }
-.medicalKnowledgeList-page{
+
+.medicalKnowledgeList-page {
   width: 500px;
   margin: 0 auto;
   margin-bottom: 20px;
   font-size: 18px;
   letter-spacing: 5px;
 }
-.medicalKnowledgeList-pagenation{
+
+.medicalKnowledgeList-pagenation {
   display: flex;
   justify-content: center;
 }
-.medicalKnowledgeList-pagenation a{
+
+.medicalKnowledgeList-pagenation a {
   text-decoration: none;
   cursor: pointer;
   letter-spacing: 5px;
