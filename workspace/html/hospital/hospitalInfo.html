@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,38 @@
   <link rel="stylesheet" href="./../../css/hospital/hospitalInfo.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
   <header>
     <div id="header-fixed">
       <div class="header-holder">
         <div class="header-container">
-          <div class="header-logo">
-            <img src="./../../image/logo.png">
-            <div>DOCTOR TREAT</div>
-          </div>
+          <a href="./../../html/main/main.html">
+            <div class="header-logo">
+              <img src="./../../image/logo.png">
+              <div>DOCTOR TREAT</div>
+            </div>
+          </a>
           <div class="header-btnContainer">
-            <a href="./../clinicMember/doctorList.html">
+            <a href="./../../html/clinicMember/choice.html">
               <div class="header-quickBtn">
                 <img src="./../../image/chatBtn.png">
                 <div>닥터트리톡</div>
               </div>
             </a>
-            <a href="./../user/member/login.html">
+            <a href="./../../html/user/member/login.html">
               <div class="header-quickBtn">
                 <img src="./../../image/login.png">
                 <div>로그인</div>
               </div>
             </a>
-            <a href="./../user/member/join.html">
+            <a href="./../../html/user/member/join.html">
               <div class="header-quickBtn">
                 <img src="./../../image/memberJoin.png">
                 <div>회원가입</div>
               </div>
             </a>
-            <a href="./../myPage/doctor/updateMember.html">
+            <a href="./../../html/myPage/member/hello.html">
               <div class="header-quickBtn">
                 <img src="./../../image/myPage.png">
                 <div>마이페이지</div>
@@ -49,26 +53,26 @@
 
       <!-- 네비바 -->
       <div class="header-navContainer">
-        <a href="./../clinicMember/choice.html">
+        <a href="./../../html/clinicMember/choice.html">
           <div class="header-menu">
             비대면진료
             <img src="./../../image/Clinic.png">
           </div>
         </a>
 
-        <a href="./../book/disease.html">
+        <a href="./../../html/book/disease.html">
           <div class="header-menu">
             질병백과
             <img src="./../../image/encyclopedia.png">
           </div>
         </a>
-        <a href="./../board/medicalKnowledgeList.html">
+        <a href="./../../html/board/member/medicalKnowledgeList.html">
           <div class="header-menu">
             의료지식인
             <img src="./../../image/Knowledge.png">
           </div>
         </a>
-        <a href="./../hospital/hospitalInfo.html">
+        <a href="./../../html/hospital/hospitalInfo.html">
           <div class="header-menu">
             지역별 병원정보
             <img src="./../../image/hospitalInfo.png">
@@ -78,9 +82,23 @@
     </div>
   </header>
 
-  <main>
-    
-  </main>
+  <div class="map_wrap">
+    <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+
+    <div id="menu_wrap" class="bg_white">
+      <div class="option">
+        <div>
+          <form onsubmit="searchPlaces(); return false;">
+            키워드 : <input type="text" value="세브란스 병원" id="keyword" size="15">
+            <button type="submit">검색하기</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+      <ul id="placesList"></ul>
+      <div id="pagination"></div>
+    </div>
+  </div>
 
   <footer>
     <br>
@@ -110,5 +128,12 @@
       <br>
     </div>
   </footer>
+  <script type="text/javascript"
+    src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=c5d67dedd71ed926dfe24f7aaa51526d&libraries=services"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=LIBRARY"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c5d67dedd71ed926dfe24f7aaa51526d"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./../../js/hospital/hospitalInfo.js"></script>
 </body>
+
 </html>
