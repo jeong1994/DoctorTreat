@@ -31,3 +31,7 @@ main {
   justify-content: center;
   cursor: pointer;
 }
+
+main a {
+  text-decoration: none;
+}
