@@ -15,8 +15,7 @@ img{
  background: #fff;
  padding: 20px;
  border-radius: 8px;
- box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
- height: 600px;
+ height: 500px;
 } 
 
 .findPw-form {
@@ -48,7 +47,7 @@ h2 {
 }
 
 button:hover {
- background-color: #0056b3;
+ background-color: #2a8a70;
 }
 
 p{
