@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.boardDetail-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #37aa8b;
+  margin-top: 40px;
+}
+
+.boardDetail-boardTextContainer{
+  width: 800px;
+  height: 100%;
+  margin: 50px auto;
+  background-color: #ececec;
+}
+
+.boardDetail-boardTitle{
+  font-size: 18px;
+  font-weight: bold;
+}
