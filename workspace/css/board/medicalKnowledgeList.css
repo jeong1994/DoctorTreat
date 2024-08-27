@@ -88,6 +88,7 @@ li {
 .medicalKnowledgeList-pagenation {
   display: flex;
   justify-content: center;
+  height: 40px;
 }
 
 .medicalKnowledgeList-pagenation a {
@@ -96,4 +97,18 @@ li {
   letter-spacing: 5px;
   font-size: 18px;
   color: black;
+}
+
+.medicalKnowledgeList-goWrite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 70px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 7px;
+  margin: 0 auto 20px auto;
+  color: white;
+  background-color: #37aa8b;
 }
