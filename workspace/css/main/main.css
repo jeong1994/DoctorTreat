@@ -131,8 +131,11 @@ h2 {
   bottom: 12%;
   width: 230px;
   height: 60px;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
   justify-content: space-between;
 }
+
 
 #main-book {
   width: 68%;
