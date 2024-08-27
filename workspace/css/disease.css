@@ -1,0 +1,30 @@
+main {
+  width: 780px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #37AA8B;
+}
+
+.disease-section {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+
+.disease-detail {
+  width: 100%;
+  height: 18%;
+  background-color: lightgray;
+  border-radius: 7px;
+  line-height: 50px;
+  font-size: 18px;
+  padding-left: 20px;
+  cursor: pointer;
+}
