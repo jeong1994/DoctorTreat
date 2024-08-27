@@ -16,14 +16,14 @@ main {
   margin-top: 40px;
 }
 
-.boardDetail-boardTextContainer{
+.boardDetail-boardTextContainer {
   width: 800px;
   height: 100%;
   margin: 50px auto;
   background-color: #ececec;
 }
 
-.boardDetail-boardTitle{
+.boardDetgiail-boardTitle {
   font-size: 18px;
   font-weight: bold;
 }
