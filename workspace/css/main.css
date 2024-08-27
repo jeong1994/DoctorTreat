@@ -135,7 +135,7 @@ h2 {
 #main-book {
   width: 68%;
   height: 100%;
-  background-color: #37AA8B;
+  background: linear-gradient(#37AA8B, #012622);
   display: flex;
   justify-content: center;
   align-items: center;
