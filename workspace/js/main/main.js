@@ -1,18 +1,22 @@
-//1. 버튼
+//1. 버튼 (진료하러가기 , top)
 const upBtn = document.getElementById("main-up");
 const appearBtn = document.getElementById("main-scroll-book");
 
 window.addEventListener('scroll', () => {
   const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  
+
   if (scrollTop > 100) {
-  appearBtn.style.display = "flex"; // 버튼을 표시
+    appearBtn.style.opacity = "1";
+    appearBtn.style.visibility = "visible";
   } else {
-  appearBtn.style.display = "none"; // 버튼을 숨김
+    appearBtn.style.opacity = "0";
+    appearBtn.style.visibility = "hidden";
   }
-  });
+});
+
+// top 누르면 맨 위로
 upBtn.addEventListener("click", () => {
-  window.scrollTo(0, 0); 
+  window.scrollTo(0, 0);
 });
 
 // 2. 슬라이드
