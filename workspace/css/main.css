@@ -36,7 +36,8 @@ iframe {
 .main-content-border {
   width: 380px;
   height: 300px;
-  border: 0.8px solid gray;
+  border: 0.8px solid black;
+  border-radius: 7px;
 }
 
 h2 {
@@ -77,7 +78,8 @@ h2 {
 .main-dicease-section {
   width: 49%;
   height: 150px;
-  border: 0.8px solid gray;
+  border: 0.8px solid black;
+  border-radius: 7px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
