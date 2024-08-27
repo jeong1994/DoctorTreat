@@ -38,6 +38,7 @@
     align-items: center;
     margin-bottom: 30px;
     color: red;
+    display: none;
 }
 
 .pwOk-btn{
@@ -54,10 +55,10 @@
     font-weight: bold;
 }
 
-.pwOk-input-field.focus {
+.pwOk-input-field.focus{
     border: 1px solid blue;
 }
 
-.pwOk-input-field.blur {
+.pwOk-input-field.blur{
     border: 1px solid red;
 }
