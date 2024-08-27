@@ -5,8 +5,7 @@
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  height: 600px;
+  height: 500px;
 } 
 
 .findId-form {
@@ -21,13 +20,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-} 
 
 button {
   padding: 10px 15px;
@@ -42,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #2a8a70;
 }
 
  p{
