@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 980px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.clinicMember-choice {
+    color: #37AA8B;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.clinicMember-department {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clinicMember-otolaryngology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    border: 1px solid lightgray;
+    background-color: #37AA8B;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.clinicMember-medicine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    border: 1px solid lightgray;
+    background-color: #37AA8B;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 30px;
+    cursor: pointer;
+}
