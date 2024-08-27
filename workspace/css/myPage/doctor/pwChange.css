@@ -34,11 +34,8 @@
     margin-top: 10px;
     margin-bottom: 20px;
     color: red;
+    display: none;
 }
-
-
-
-
 
 .pwChange-btn{
     margin: 0 auto;
@@ -54,10 +51,10 @@
     font-weight: bold;
 
 }
-.pwChange-input-field.focus {
+.pwChange-input-field.focus{
     border: 1px solid blue;
 }
 
-.pwChange-input-field.blur {
+.pwChange-input-field.blur{
     border: 1px solid red;
 }
