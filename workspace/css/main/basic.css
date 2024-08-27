@@ -21,6 +21,8 @@ header{
   position: fixed;
   width: 100vw;
 }
+
+
 .header-holder{
   width: 100%;
   display: flex;

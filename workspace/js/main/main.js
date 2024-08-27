@@ -4,14 +4,13 @@ const appearBtn = document.getElementById("main-scroll-book");
 
 window.addEventListener('scroll', () => {
   const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-
-  if (scrollTop > 100) { 
-    appearBtn.style.display = "flex"; // 버튼을 표시
+  
+  if (scrollTop > 100) {
+  appearBtn.style.display = "flex"; // 버튼을 표시
   } else {
-    appearBtn.style.display = "none"; // 버튼을 숨김
+  appearBtn.style.display = "none"; // 버튼을 숨김
   }
-});
-
+  });
 upBtn.addEventListener("click", () => {
   window.scrollTo(0, 0); 
 });

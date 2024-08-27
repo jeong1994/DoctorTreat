@@ -36,7 +36,7 @@ iframe {
 .main-content-border {
   width: 380px;
   height: 300px;
-  border: 0.8px solid black;
+  border: 1px solid lightgray;
   border-radius: 7px;
 }
 
@@ -78,7 +78,7 @@ h2 {
 .main-dicease-section {
   width: 49%;
   height: 150px;
-  border: 0.8px solid black;
+  border: 1px solid lightgray;
   border-radius: 7px;
   display: flex;
   justify-content: space-between;
@@ -158,7 +158,7 @@ h2 {
   height: 100%;
   background-color: white;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   border-radius: 50%;
   color: black;
   font-size: 40px;
