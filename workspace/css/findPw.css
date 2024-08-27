@@ -1,4 +1,3 @@
-
 *{
   margin: 0;
   padding: 0;
@@ -8,18 +7,6 @@
 img{
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .findPw-container{
   width: 980px;
@@ -31,7 +18,6 @@ img{
  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
  height: 600px;
 } 
-
 
 .findPw-form {
  margin: 20px 0;
@@ -47,19 +33,6 @@ h2 {
  margin-bottom: 10px;
 }
 
-/* label {
- display: block;
- margin: 10px 0 5px;
-}
-
-input[type="email"] {
- width: 100%;
- padding: 10px;
- margin-bottom: 10px;
- border: 1px solid #ddd;
- border-radius: 5px;
-} */
-
 .findPw-button{
  padding: 10px 15px;
  border: none;
@@ -74,34 +47,19 @@ input[type="email"] {
  margin-left: 240px;
 }
 
-
-
-/* button {
- padding: 10px 15px;
- border: none;
- border-radius: 7px;
- background-color: #37aa8b;
- color: #fff;
- cursor: pointer;
- width: 500px;
- height: 70px;
- font-size: 14px;
-} */
-
 button:hover {
  background-color: #0056b3;
 }
 
 p{
  font-size: 10px;
- 
 }
 
 .findPw-choicebox{
  display: flex;
  margin-left: 20px;
- 
 }
+
 .findPw-choice{
  border: 0.1px solid darkgray ; 
  padding: 20px;
@@ -122,29 +80,21 @@ color: black;
    margin-left: 30px;
 }
 
-
 .findPw-form{
  margin-top: 100px;
  text-align: center;
 }
 
-
 form p{
  margin-top: 10px;
 }
 
-
-
 .findPw-input{
   height: 50px;
   width: 450px;
-  
 }
 
 .findPw-form-one, .findPw-form-two{
   text-align: center;
   margin-top: 10px;
 }
-
-
-
