@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DoctorTreat - 의료지식인 상세</title>
-  <link rel="stylesheet" href="./../../../css/main/basic.css">
+  <title>DoctorTreat - 채팅방</title>
+  <link rel="stylesheet" href="./../../css/main/basic.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="./../../../css/board/boardDetail.css">
+  <link rel="stylesheet" href="./../../css/clinicMember/chatRoom.css">
 </head>
 
 <body>
@@ -54,55 +54,70 @@
 
       <!-- 네비바 -->
       <div class="header-navContainer">
-        <a href="./../../../html/clinicMember/choice.html">
+        <a href="./../../html/clinicMember/choice.html">
           <div class="header-menu">
             비대면진료
-            <img src="./../../../image/Clinic.png">
+            <img src="./../../image/Clinic.png">
           </div>
         </a>
-
-        <a href="./../../../html/book/disease.html">
+        <a href="./../../html/book/disease.html">
           <div class="header-menu">
             질병백과
-            <img src="./../../../image/encyclopedia.png">
+            <img src="./../../image/encyclopedia.png">
           </div>
         </a>
-        <a href="./../../../html/board/member/medicalKnowledgeList.html">
+        <a href="./../../html/board/member/medicalKnowledgeList.html">
           <div class="header-menu">
             의료지식인
-            <img src="./../../../image/Knowledge.png">
+            <img src="./../../image/Knowledge.png">
           </div>
         </a>
-        <a href="./../../../html/hospital/hospitalInfo.html">
+        <a href="./../../html/hospital/hospitalInfo.html">
           <div class="header-menu">
             지역별 병원정보
-            <img src="./../../../image/hospitalInfo.png">
+            <img src="./../../image/hospitalInfo.png">
           </div>
         </a>
       </div>
     </div>
   </header>
 
+  <!-- 채팅창 -->
   <main>
-    <!-- 의료지식인 게시글 상세페이지 -->
-    <div class="boardDetail-title">의료지식인</div>
-    <div class="boardDetail-boardTextContainer">
-        <div class="boardDetail-boardTitle">방구 참으면 어떻게 되나요</div>
-        <div class="boardDetail-writer">
-          <div class="boardDetail-name">김OO</div>
-          <div class="boardDetail-date">2024-08-27</div>
+    <!-- 의사 -->
+    <div class="chatRoom-topContainer">
+      <div class="chatRoom-title">비대면진료</div>
+      <a href="./../../html/clinicDoctor/memberList.html"><div id="chatRoom-exitChatBtn">채팅 나가기</div></a>
+    </div>
+    <div class="chatRoom-chatBox">
+      <div class="chatRoom-doctorChat">
+        <div class="chatRoom-doctorName">양혁수 의사</div>
+        <div class="chatRoom-doctorMsgContainer">
+          <div class="chatRoom-doctorMsg">
+            안녕하세요 어디가 아프신가요?
+          </div>
+          <div class="chatRoom-doctorMsgDate">2024.08.28 17:46</div>
         </div>
-      <div class="boardDetail-boardText">
-        방구참기 챌린지 중인데 혹시 오래참으면 어떻게 되는지 궁금합니다
+      </div>
+      <!-- 환자 -->
+      <div class="chatRoom-memberChat">
+        <div class="chatRoom-memberName">송아성</div>
+        <div class="chatRoom-memberMsgContainer">
+          <div class="chatRoom-memberMsgDate">2024.08.28 17:46</div>
+          <div class="chatRoom-memberMsg">
+            목이 아파여
+          </div>
+        </div>
       </div>
     </div>
-    <!-- 의사댓글창 -->
-    <div class="boardDetail-comentBox">
-      <div class="boardDetail-doctorName">내과 전문의 : 김규열</div>
-      <div class="boardDetail-doctorComent">내공 냠냠</div>
+
+    <div class="chatRoom-areaContainer">
+      <textarea id="chatRoom-chatArea" placeholder="채팅을 입력하세요"></textarea>
     </div>
-    <div class="boardDetail-comentModify">수정</div>
-    <div class="boardDetail-comentDelete">삭제</div>
+
+    <form action="">
+      <button id="chatRoom-submit">보내기</button>
+    </form>
   </main>
 
   <!-- 푸터 -->
@@ -134,7 +149,6 @@
       <br>
     </div>
   </footer>
-
 </body>
 
 </html>
