@@ -17,7 +17,7 @@ main {
   margin: 0 auto;
 }
 
-.startClinic-startBtn {
+#startClinic-startBtn {
   margin: 60px auto;
   background-color: #37aa8b;
   color: white;
