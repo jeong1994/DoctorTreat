@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.memberOut-input-field');
+const inputs = document.querySelectorAll('.DoctorPhoneOk-input-field');
 
 inputs.forEach(input => {
     input.addEventListener('focus', () => {
