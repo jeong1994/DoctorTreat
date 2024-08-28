@@ -18,7 +18,14 @@ document.querySelectorAll('.DoctorphoneChange-input-field').forEach(inputField =
                 textbox.style.color = 'red';  // 텍스트 색을 빨간색으로 변경
             }
         } else {
-            this.style.borderColor = '#ccc';  // 값이 있을 경우 기본 테두리 색으로 복원
+            this.style.borderColor = '#ccc';// 값이 있을 경우 기본 테두리 색으로 복원
         }
     });
 });
+
+
+
+
+
+
+
