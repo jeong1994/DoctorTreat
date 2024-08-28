@@ -46,11 +46,22 @@
     text-align: center;
     line-height: 50px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.DoctorpwChange-btn a{
     color: white;
     font-size: 16px;
     font-weight: bold;
-
 }
+.DoctorpwChange-btn:hover{
+    background-color: #2a8a70;
+}
+
+
 .DoctorpwChange-input-field.focus{
     border: 1px solid blue;
 }
