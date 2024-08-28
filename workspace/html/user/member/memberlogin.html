@@ -80,32 +80,32 @@
     </div>
   </header>
   <main>
-    <div class="container">
+    <div class="member-container">
       <h1>로그인</h1>
       <form action="/login" method="POST">
-          <div class="input-group">
+          <div class="member-input-group">
               <label for="username">아이디</label>
               <input type="text" id="username" name="username" required>
           </div>
-          <div class="input-group">
+          <div class="member-input-group">
               <label for="password">비밀번호</label>
               <input type="password" id="password" name="password" required>
           </div>
           <div class="login-findmessage">
-            <a href="#"><span>아이디 찾기</span></a> 
-          <a href="#"><span>비밀번호 찾기</span></a>
+            <a href="./../../../html/user/member/memberfindId.html"><span>아이디 찾기</span></a> 
+          <a href="./../../../html/user/member/memberfindPw.html"><span>비밀번호 찾기</span></a>
           </div>
           <br><br>
           <input type="checkbox">로그인 상태 유지
           <br><br>
-          <button type="submit" class="button">로그인</button>
+          <button type="submit" class="member-button"><a href="./../../../html/main/main.html">로그인</button></a>
       </form>
       <br><br>
-      <span class="login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
+      <span class="member-login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
       <br><br>
-      <button type="submit" class="button">개인회원 가입하기</button>
+      <button type="submit" class="member-button"><a href="./../../../html/user/member/memberjoin.html">개인회원 가입하기</button></a>
       <br><br>
-      <button type="submit" class="button">의사회원 가입하기</button>
+      <button type="submit" class="member-button"><a href="./../../../html/user/doctor/Doctorjoin.html">의사회원 가입하기</button></a>
     </div>
   </main>
   <footer>

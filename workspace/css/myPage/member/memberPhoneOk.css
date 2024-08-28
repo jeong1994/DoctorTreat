@@ -1,23 +1,23 @@
-.DoctorPhoneOk-main-container{
+.memberPhoneOk-main-container{
     width: 980px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 70px;
     height: 600px;
 }
-.DoctorPhoneOk-title{
+.memberPhoneOk-title{
     color: #37aa8b;
     font-size: 25px;
     font-weight: bold;
     margin-top: 40px;
 }
 
-.DoctorPhoneOk-text{
+.memberPhoneOk-text{
     font-size: 14px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.DoctorPhoneOk-inputbox{
+.memberPhoneOk-inputbox{
     width: 980px;
     margin: 0 auto;
     align-items: center;
@@ -26,14 +26,13 @@
     margin-bottom: 60px;
     margin-top: 20px;
 }
-.DoctorPhoneOk-inputbox input{
+.memberPhoneOk-inputbox input{
     width: 450px;
     height: 50px;
     margin-top: 10px;
 }
 
-
-.DoctorPhoneOk-Okbtn .DoctorPhoneOk-requestbtn{
+.memberPhoneOk-Okbtn .memberPhoneOk-requestbtn{
     width: 100px;
     height: 50px;
     background-color: #37aa8b;
@@ -44,7 +43,7 @@
     color: white;
 }
 
-.DoctorPhoneOk-textbox{
+.memberPhoneOk-textbox{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +52,7 @@
     display: none;
 }
 
-.DoctorPhoneOk-btn{
+.memberPhoneOk-btn{
     margin: 0 auto;
     width: 350px;
     height: 50px;
@@ -63,16 +62,16 @@
     line-height: 50px;
     cursor: pointer;
 }
-.DoctorPhoneOk-btn a{
+.memberPhoneOk-btn a{
     color: white;
     font-size: 16px;
     font-weight: bold;
 }
 
-.DoctorPhoneOk-input-field.focus {
+.memberPhoneOk-input-field.focus {
     border: 1px solid blue;
 }
 
-.DoctorPhoneOk-input-field.blur {
+.memberPhoneOk-input-field.blur {
     border: 1px solid red;
 }
