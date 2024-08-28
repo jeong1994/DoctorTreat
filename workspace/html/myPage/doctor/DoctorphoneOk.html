@@ -69,7 +69,10 @@
                 <p class="DoctorPhoneOk-text">휴대폰 번호 인증</p>
 
                 <div class="DoctorPhoneOk-Okbtn">
-                    <input type="text" class="DoctorPhoneOk-input-field">
+                    <input type="text" class="DoctorPhoneOk-input-field" id="phoneInput">
+                    <div class="DoctorPhoneOk-textbox" id="errorMessage">
+                      <p>010-0000-0000 양식으로 작성해주세요</p>
+                    </div>
                     <button class="DoctorPhoneOk-requestbtn">
                         <p>인증요청</p>
                     </button>
@@ -77,13 +80,13 @@
             </form>
         </div>
 
-        <div class="DoctorPhoneOk-textbox">
+        <div class="DoctorPhoneOk-textbox" id="errorMessage">
             <p>010-0000-0000 양식으로 작성해주세요</p>
         </div>
 
-        <div class="DoctorPhoneOk-btn">
+        <button class="DoctorPhoneOk-btn">
             <p><a href="./../../myPage/doctor/DoctorpwChange.html">인증완료</a></p>
-          </div>
+        </button>
       </div>
 
       <footer>
@@ -115,6 +118,6 @@
         </div>
       </footer>
 
-      <script src="./../../../js/myPage/DoctorPhoneOk.js"></script>
+      <script src="./../../../js/myPage/doctor/DoctorPhoneOk.js"></script>
 </body>
 </html>

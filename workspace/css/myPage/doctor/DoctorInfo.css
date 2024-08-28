@@ -45,9 +45,16 @@
   line-height: 50px;
   cursor: pointer;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 .DoctorInfo-btn a {
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+.DoctorInfo-btn:hover{
+  background-color: #2a8a70;
 }
