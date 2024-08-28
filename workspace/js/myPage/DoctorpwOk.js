@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.pwChange-input-field');
+const inputs = document.querySelectorAll('.DoctorpwOk-input-field');
 
 inputs.forEach(input => {
     input.addEventListener('focus', () => {

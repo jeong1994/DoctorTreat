@@ -21,7 +21,7 @@ img{
 .findPw-form {
  margin: 20px 0;
  padding: 15px;
- border: 1px solid #ddd;
+ border: 0.1px solid lightgray;
  border-radius: 7px;
  text-align: center;
  font-size: 14px;
@@ -60,7 +60,7 @@ p{
 }
 
 .findPw-choice{
- border: 0.1px solid darkgray ; 
+ border: 0.1px solid lightgray ; 
  padding: 20px;
 } 
 
@@ -91,6 +91,7 @@ form p{
 .findPw-input{
   height: 50px;
   width: 450px;
+  border: 0.1px solid lightgray;
 }
 
 .findPw-form-one, .findPw-form-two{
