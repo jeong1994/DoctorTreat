@@ -11,7 +11,6 @@
 .findId-form {
   margin: 20px 0;
   padding: 15px;
-  border: 1px solid #ddd;
   border-radius: 7px;
   text-align: center;
 }
@@ -30,7 +29,7 @@ button {
   cursor: pointer;
   width: 500px;
   height: 70px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 button:hover {
@@ -48,7 +47,7 @@ button:hover {
   
 }
 .findId-choice{
-  border: 0.1px solid darkgray ; 
+  border: 0.1px solid lightgray ; 
   padding: 20px;
 } 
 

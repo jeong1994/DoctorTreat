@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../../../css/user/member/memberjoin.css">
   <link rel="stylesheet" href="./../../../css/main/basic.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="./../../../css/user/member/login.css">
-  <title>로그인</title>
+  <title>일반 회원가입</title>
 </head>
+
 <body>
   <header>
     <div class="header-holder">
@@ -58,32 +60,43 @@
       </div>
     </div>
   </header>
-  <main>
-    <div class="container">
-      <h1>로그인</h1>
-      <form action="/login" method="POST">
-          <div class="input-group">
-              <label for="username">아이디</label>
-              <input type="text" id="username" name="username" required>
-          </div>
-          <div class="input-group">
-              <label for="password">비밀번호</label>
-              <input type="password" id="password" name="password" required>
-          </div>
-          <div class="login-findmessage">
-          <span>아이디 찾기</span> <span>비밀번호 찾기</span>
-          </div>
-          <br><br>
-          <input type="checkbox">로그인 상태 유지
-          <br><br>
-          <button type="submit" class="button">로그인</button>
+  <main class="member-background">
+    <div class="signup-container">
+      <h2>회원가입</h2>
+      <form action="#" method="post">
+        <div class="input-group">
+          <label for="username">아이디</label>
+          <input type="text" id="username" name="username" required>
+          <p></p>
+        </div>
+        <div class="input-group">
+          <label for="email">비밀번호</label>
+          <input type="email" id="email" name="email" required>
+          <p></p>
+        </div>
+        <div class="input-group">
+          <label for="password">비밀번호 확인</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label for="confirm-password">이름</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <div class="input-group">
+          <label for="postcode">우편번호</label>
+          <input type="text" id="postcode" name="postcode" readonly required>
+          <button type="button" onclick="execDaumPostcode()">우편번호 찾기</button>
+        </div>
+        <div class="input-group">
+          <label for="address">생년월일</label>
+          <input type="text" id="address" name="address" readonly required>
+        </div>
+        <div class="input-group">
+          <label for="detailAddress">핸드폰 번호</label>
+          <input type="text" id="detailAddress" name="detailAddress" required>
+        </div>
+        <button type="submit" class="signup-btn">가입하기</button>
       </form>
-      <br><br>
-      <span class="login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
-      <br><br>
-      <button type="submit" class="button">개인회원 가입하기</button>
-      <br><br>
-      <button type="submit" class="button">의사회원 가입하기</button>
     </div>
   </main>
   <footer>
@@ -115,4 +128,5 @@
     </div>
   </footer>
 </body>
+
 </html>
