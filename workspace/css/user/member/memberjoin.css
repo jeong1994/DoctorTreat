@@ -82,3 +82,40 @@
   right: 1px;
   top: -8px;
 }
+
+.memberjoin-view-first {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: block;
+
+}
+.memberjoin-view-second {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: block;
+
+}
+
+
+.memberjoin-noview-first {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: none;
+}
+.memberjoin-noview-second {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: none;
+}

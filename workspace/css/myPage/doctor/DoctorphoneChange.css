@@ -46,7 +46,8 @@
 .DoctorphoneChange-textbox{
     margin-top: 10px;
     margin-bottom: 50px;
-    color: lightgrey;
+    color: red;
+    display: none;
 }
 .DoctorphoneChange-btn{
     margin: 0 auto;
@@ -57,16 +58,22 @@
     text-align: center;
     line-height: 50px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
 .DoctorphoneChange-btn a{
     color: white;
     font-weight: bold;
     font-size: 16px;
 }
-.DoctorphoneChange-input-field.focus {
-    border: 1px solid blue;
+.DoctorphoneChange-btn:hover{
+    background-color: #2a8a70;
 }
-
-.DoctorphoneChange-input-field.blur {
-    border: 1px solid red;
+.DoctorphoneChange-requestbtn:hover{
+    background-color: #2a8a70;
+}
+.DoctorphoneChange-textbox {
+    color: black;
 }
