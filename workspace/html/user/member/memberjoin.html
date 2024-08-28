@@ -12,93 +12,133 @@
 
 <body>
   <header>
-    <div class="header-holder">
-      <div class="header-container">
-        <div class="header-logo">
-          <img src="/image/logo.png">
-          <div>DOCTOR TREAT</div>
-        </div>
-        <div class="header-btnContainer">
-          <div class="header-quickBtn">
-            <img src="/image/chatBtn.png">
-            <div>닥터트리톡</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="/image/login.png">
-            <div>로그인</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="/image/memberJoin.png">
-            <div>회원가입</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="/image/myPage.png">
-            <div>마이페이지</div>
+    <div id="header-fixed">
+      <div class="header-holder">
+        <div class="header-container">
+          <a href="./../../../html/main/main.html">
+            <div class="header-logo"> 
+              <img src="./../../../image/logo.png">
+              <div>DOCTOR TREAT</div>
+            </div>
+          </a>
+          <div class="header-btnContainer">
+            <a href="./../../../html/clinicMember/choice.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/chatBtn.png">
+                <div>닥터트리톡</div>
+              </div>
+            </a>
+            <a href="./../../../html/user/member/memberlogin.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/login.png">
+                <div>로그인</div>
+              </div>
+            </a>
+            <a href="./../../../html/user/member/memberjoin.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/memberJoin.png">
+                <div>회원가입</div>
+              </div>
+            </a>
+            <a href="./../../../html/myPage/doctor/DoctorInfo.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/myPage.png">
+                <div>마이페이지</div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="header-hr"></div>
+      <div class="header-hr"></div>
 
-    <!-- 네비바 -->
-    <div class="header-navContainer">
-      <div class="header-menu">
-        비대면진료
-        <img src="/image/Clinic.png">
-      </div>
-      <div class="header-menu">
-        질병백과
-        <img src="/image/encyclopedia.png">
-      </div>
-      <div class="header-menu">
-        의료지식인
-        <img src="/image/Knowledge.png">
-      </div>
-      <div class="header-menu">
-        지역별 병원정보
-        <img src="/image/hospitalInfo.png">
+      <!-- 네비바 -->
+      <div class="header-navContainer">
+        <a href="./../../../html/clinicMember/choice.html">
+          <div class="header-menu">
+            비대면진료
+            <img src="./../../../image/Clinic.png">
+          </div>
+        </a>
+
+        <a href="./../../../html/book/disease.html">
+          <div class="header-menu">
+            질병백과
+            <img src="./../../../image/encyclopedia.png">
+          </div>
+        </a>
+        <a href="./../../../html/board/member/medicalKnowledgeList.html">
+          <div class="header-menu">
+            의료지식인
+            <img src="./../../../image/Knowledge.png">
+          </div>
+        </a>
+        <a href="./../../../html/hospital/hospitalInfo.html">
+          <div class="header-menu">
+            지역별 병원정보
+            <img src="./../../../image/hospitalInfo.png">
+          </div>
+        </a>
       </div>
     </div>
   </header>
+
   <main class="member-background">
     <div class="signup-container">
-      <h2>회원가입</h2>
+      <a href="./../../../html/user/member/memberjoin.html"><h2>회원가입</h2></a>
       <form action="#" method="post">
+
+        <label for="username">아이디</label>
         <div class="input-group">
-          <label for="username">아이디</label>
-          <input type="text" id="username" name="username" required>
-          <p></p>
+          <input class="member-input-focus" type="text" id="username" name="username" required>
+          <button class="join-checkIdBtn">중복 확인</button>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <label for="email">비밀번호</label>
         <div class="input-group">
-          <label for="email">비밀번호</label>
           <input type="email" id="email" name="email" required>
-          <p></p>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <label for="password">비밀번호 확인</label>
         <div class="input-group">
-          <label for="password">비밀번호 확인</label>
           <input type="password" id="password" name="password" required>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <label for="confirm-password">이름</label>
         <div class="input-group">
-          <label for="confirm-password">이름</label>
           <input type="password" id="confirm-password" name="confirm-password" required>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <label for="postcode">우편번호</label>
         <div class="input-group">
-          <label for="postcode">우편번호</label>
           <input type="text" id="postcode" name="postcode" readonly required>
-          <button type="button" onclick="execDaumPostcode()">우편번호 찾기</button>
+          <button type="button">우편번호 찾기</button>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <label for="address">생년월일</label>
         <div class="input-group">
-          <label for="address">생년월일</label>
           <input type="text" id="address" name="address" readonly required>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <label for="detailAddress">핸드폰 번호</label>
         <div class="input-group">
-          <label for="detailAddress">핸드폰 번호</label>
           <input type="text" id="detailAddress" name="detailAddress" required>
+          <button class="join-request">인증 요청</button>
+          <p class="memberjoin-Null"></p>
         </div>
+
+        <br><br><br>
+
         <button type="submit" class="signup-btn">가입하기</button>
       </form>
     </div>
   </main>
+
   <footer>
     <br>
     <div id="footer-footer">
@@ -127,6 +167,7 @@
       <br>
     </div>
   </footer>
+  <script src="./../../../js/myPage/member/memberjoin.js"></script>
 </body>
 
 </html>
