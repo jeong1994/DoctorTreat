@@ -94,7 +94,8 @@ main {
     padding: 0 10px 10px 10px;
 }
 
-.boardDetail-modifyBtn {
+.boardDetail-modifyBtn,
+.boardDetail-deleteBtn {
     position: relative;
     bottom: 50px;
     left: 700px;
@@ -109,7 +110,8 @@ main {
 
 .boardDetail-comentModify,
 .boardDetail-comentDelete,
-.boardDetail-modifyBtn {
+.boardDetail-modifyBtn,
+.boardDetail-deleteBtn {
     display: flex;
     font-size: 15px;
     font-weight: bold;
@@ -123,6 +125,12 @@ main {
     align-items: center;
     cursor: pointer;
     position: relative;
+}
+
+.boardDetail-deleteBtn{
+    position: relative;
+    bottom: 80px;
+    left: 770px;
 }
 
 .boardDetail-comentModify {
