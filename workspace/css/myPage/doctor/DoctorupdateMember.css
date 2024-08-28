@@ -68,6 +68,14 @@
   text-align: center;
   line-height: 50px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+button:hover{
+  background-color: #2a8a70;
 }
 .DoctorupdateMember-btn a{
   color: white;
