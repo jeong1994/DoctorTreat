@@ -1,47 +1,43 @@
-.pwOk-main-container{
+.DoctorpwChange-main-container{
     width: 980px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 70px;
     height: 600px;
 }
-.pwOk-title{
+
+.DoctorpwChange-title{
     color: #37aa8b;
     font-size: 25px;
     font-weight: bold;
     margin-top: 40px;
 }
-.pwOk-text{
+.DoctorpwChange-text{
     font-size: 14px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.pwOk-inputbox{
+.DoctorpwChange-inputbox{
     width: 980px;
-    margin: 0 auto;
     align-items: center;
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
     margin-top: 20px;
 }
-
-.pwOk-inputbox input{
+.DoctorpwChange-inputbox input{
     width: 450px;
     height: 50px;
     margin-top: 10px;
 }
-
-.pwOk-textbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+.DoctorpwChange-textbox{
+    margin-top: 10px;
+    margin-bottom: 20px;
     color: red;
     display: none;
 }
 
-.pwOk-btn{
+.DoctorpwChange-btn{
     margin: 0 auto;
     width: 350px;
     height: 50px;
@@ -53,12 +49,12 @@
     color: white;
     font-size: 16px;
     font-weight: bold;
-}
 
-.pwOk-input-field.focus{
+}
+.DoctorpwChange-input-field.focus{
     border: 1px solid blue;
 }
 
-.pwOk-input-field.blur{
+.DoctorpwChange-input-field.blur{
     border: 1px solid red;
 }
