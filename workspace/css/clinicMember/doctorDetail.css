@@ -40,6 +40,7 @@ main {
 #doctorDetail-clinic-time {
     font-size: 18px;
     font-weight: bold;
+    padding: 20px 0px 20px 20px;
 }
 
 .doctorDetail-hours {
@@ -84,4 +85,35 @@ main {
     margin: 0 auto 20px auto;
     color: white;
     background-color: #37aa8b;
+}
+
+.doctorDetail-Info {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#doctorDetail-number {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0px 20px 20px;
+}
+
+#doctorDetail-hospital-num {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.hospital-address {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0px 20px 20px;
+}
+
+.hospital-location {
+    padding-bottom: 30px;
+}
+
+.hospital-goWrite a {
+    color: white;
 }
