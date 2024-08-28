@@ -62,11 +62,21 @@
     text-align: center;
     line-height: 50px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
 .DoctorPhoneOk-btn a{
     color: white;
     font-size: 16px;
     font-weight: bold;
+}
+.DoctorPhoneOk-requestbtn:hover{
+    background-color: #2a8a70;
+}
+.DoctorPhoneOk-btn:hover{
+    background-color: #2a8a70;
 }
 
 .DoctorPhoneOk-input-field.focus {
