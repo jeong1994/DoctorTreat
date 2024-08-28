@@ -16,7 +16,7 @@
       <div class="header-holder">
         <div class="header-container">
           <a href="./../../../html/main/main.html">
-            <div class="header-logo"> 
+            <div class="header-logo">
               <img src="./../../../image/logo.png">
               <div>DOCTOR TREAT</div>
             </div>
@@ -84,7 +84,9 @@
 
   <main class="member-background">
     <div class="signup-container">
-      <a href="./../../../html/user/member/memberjoin.html"><h2>회원가입</h2></a>
+      <a href="./../../../html/user/member/memberjoin.html">
+        <h2>회원가입</h2>
+      </a>
       <form action="#" method="post">
 
         <label for="userId">아이디</label>
@@ -116,11 +118,15 @@
           <p class="memberjoin-Null"></p>
         </div>
 
-        <label for="postcode">우편번호</label>
-        <div class="input-group">
-          <input type="text" id="postcode" name="postcode" required>
-          <button type="button">우편번호 찾기</button>
-          <p class="memberjoin-Null"></p>
+        <div class="input-group1">
+          <input type="text" id="postcode" placeholder="우편번호">
+          <button class="postcode-search" onclick="execDaumPostcode()">주소 찾기</button>
+        </div>
+        <div class="input-group1">
+          <input type="text" id="address" placeholder="주소">
+        </div>
+        <div class="input-group1">
+          <input type="text" id="detailAddress" placeholder="상세 주소">
         </div>
 
         <label for="birth">생년월일</label>
@@ -138,34 +144,34 @@
 
         <br>
 
-        <div class="container">          
+        <div class="container">
           <form id="terms-form" action="submit_form.php" method="post">
-              <!-- 전체 동의 체크박스 -->
-              <div class="checkbox-container">
-                  <input type="checkbox" id="agree-all-checkbox">
-                  <label for="agree-all-checkbox"><strong>전체 약관에 동의합니다.</strong></label>
-              </div>
-              <hr>
-              <br>
-              <!-- 개별 약관 체크박스들 -->
-              <div class="checkbox-container">
-                  <input type="checkbox" id="terms1" class="agree-checkbox">
-                  <label for="terms1">전화처방 등 원격진료 서비스는 정부 정책의 변경에 따라 예고 없이 중단될 수 있으며, 회사는 이에 대해 아무런 책임을 지지 않습니다.</label>
-              </div>
-              <br>
-              <div class="checkbox-container">
-                  <input type="checkbox" id="terms2" class="agree-checkbox">
-                  <label for="terms2">닥터트리 및 닥터트리 관련 제반 서비스의 이용과 관련하여 필요한 사항을 규정합니다.</label>
-              </div>
-              <br>
-              <div class="checkbox-container">
-                  <input type="checkbox" id="terms3" class="agree-checkbox">
-                  <label for="terms3">개인 정보 수집 및 이용에 동의합니다.</label>
-              </div>
+            <!-- 전체 동의 체크박스 -->
+            <div class="checkbox-container">
+              <input type="checkbox" id="agree-all-checkbox">
+              <label for="agree-all-checkbox"><strong>전체 약관에 동의합니다.</strong></label>
+            </div>
+            <hr>
+            <br>
+            <!-- 개별 약관 체크박스들 -->
+            <div class="checkbox-container">
+              <input type="checkbox" id="terms1" class="agree-checkbox">
+              <label for="terms1">전화처방 등 원격진료 서비스는 정부 정책의 변경에 따라 예고 없이 중단될 수 있으며, 회사는 이에 대해 아무런 책임을 지지 않습니다.</label>
+            </div>
+            <br>
+            <div class="checkbox-container">
+              <input type="checkbox" id="terms2" class="agree-checkbox">
+              <label for="terms2">닥터트리 및 닥터트리 관련 제반 서비스의 이용과 관련하여 필요한 사항을 규정합니다.</label>
+            </div>
+            <br>
+            <div class="checkbox-container">
+              <input type="checkbox" id="terms3" class="agree-checkbox">
+              <label for="terms3">개인 정보 수집 및 이용에 동의합니다.</label>
+            </div>
           </form>
-      </div>
-      
-      <br><br>
+        </div>
+
+        <br><br>
 
         <button type="submit" class="signup-btn">가입하기</button>
       </form>
@@ -200,6 +206,7 @@
       <br>
     </div>
   </footer>
+  <script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
   <script src="./../../../js/myPage/member/memberjoin.js"></script>
 </body>
 
