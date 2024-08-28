@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./../../css/main/basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./../../css/clinicDoctor/startClinic.css">
+    <link rel="stylesheet" href="./../../css/modal/modal.css">
+    <script defer src="./../../js/modal/modal.js"></script>
 </head>
 
 <body>
@@ -81,14 +83,23 @@
         </div>
     </header>
 
+    <!-- 모달창 -->
+    <div id="modalBackground">
+        <div id="modal">
+            <div>진료를 시작 하시겠습니까?</div>
+            <div>
+                <a href="./../../html/clinicDoctor/memberList.html"><span class="modalChoice" id="modalOk">예</span></a>
+                <span class="modalChoice" id="modalNo">아니오</span>
+            </div>
+        </div>
+    </div>
+
     <!-- 진료시작 버튼 -->
     <main>
         <div class="startClinic-title">비대면진료</div>
-        <a href="./memberList.html">
-            <div class="startClinic-startBtn">
-                진료 시작하기
-            </div>
-        </a>
+        <div id="startClinic-startBtn">
+            진료 시작하기
+        </div>
     </main>
 
     <!-- 푸터 -->
