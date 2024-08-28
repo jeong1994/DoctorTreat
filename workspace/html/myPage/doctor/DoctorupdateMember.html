@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../../../css/myPage/doctor/DoctorInfo.css">
     <link rel="stylesheet" href="./../../../css/main/basic.css">
-    <title>DoctorTreat - 병원 정보</title>
+    <link rel="stylesheet" href="./../../../css/myPage/doctor/DoctorupdateMember.css">
+    <title>DoctorTreat - 내 병원 정보 수정</title>
 </head>
 <body>
     <header>
@@ -58,57 +58,53 @@
         </div>
       </header>
 
-      <div class="DoctorInfo-main-container">
-        <div class="DoctorInfo-titlebox">
-            <p class="DoctorInfo-title">내 병원 정보</p>
-            <hr class="DoctorInfo-hr">
+    <div class="DoctorupdateMember-main-container">
+        <div class="DoctorupdateMember-titlebox">
+            <p class="DoctorupdateMember-title">내 병원 수정</p>
+            <hr class="DoctorupdateMember-hr">
         </div>
+        <div class="DoctorupdateMember-inputbox">
+            <form action="">
+        
+              <label class="DoctorupdateMember-input" for="">
+                <span>아이디</span>
+                <input type="text" value="">
+              </label>
+              <br>
+              <label class="DoctorupdateMember-input" for="">
+                <span>이름</span>
+                <input type="text" value="">
+              </label>
+              <br>
+              <label class="DoctorupdateMember-input" for="">
+                <span>비밀번호</span>
+                <button><a href="phoneOk.html">비밀번호 변경</a></button>
+              </label>
+              <br>
+              <label class="DoctorupdateMember-input" for="">
+                <span>병원 이름</span>
+                <input type="text" value="">
+              </label>
+              <br>
+              <label class="DoctorupdateMember-input" for="">
+                <span>휴대폰 번호</span>
+                <input type="text" value="">
+              </label>
+              <br>
+              <label class="DoctorupdateMember-input" for="">
+                <span>병원 주소</span>
+                <button><a href="phoneChange.html">병원 번호 변경</a></button>
+              </label>
+              <br>
+            </form>
+          </div>
+          <div class="DoctorupdateMember-botton">          
+            <div class="DoctorupdateMember-btn"><a href="DoctorInfo.html">수정완료</a></div>
+            <div class="DoctorupdateMember-btn"><a href="DoctorOut.html">회원탈퇴</a></div>
+          </div>  
+    </div>
 
-        <div class="DoctorInfo-inputbox">
-          <form action="">
-      
-            <label class="DoctorInfo-input" for="">
-              <span>아이디</span>
-              <input type="text" value="">
-            </label>
-            <br>
-            <label class="DoctorInfo-input" for="">
-              <span>이름</span>
-              <input type="text" value="">
-            </label>
-            <br>
-            <label class="DoctorInfo-input" for="">
-              <span>병원 이름</span>
-              <input type="text" value="">
-            </label>
-            <br>
-            <label class="DoctorInfo-input" for="">
-              <span>휴대폰 번호</span>
-              <input type="text" value="">
-            </label>
-            <br>
-            <label class="DoctorInfo-input" for="">
-              <span>병원 주소</span>
-              <input type="text" value="">
-            </label>
-            <br>
-          </form>
-        </div>
-      
-
-
-
-        <div class="DoctorInfo-btn"><a href="DoctorpwOk.html">병원정보수정</a></div>
-
-      </div>
-      
-      
-
-
-
-
-
-      <footer>
+    <footer>
         <br>
         <div id="footer-footer">
           <p class="footer-bold-first">
@@ -136,6 +132,5 @@
           <br>
         </div>
       </footer>
-
 </body>
 </html>
