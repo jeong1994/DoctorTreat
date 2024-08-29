@@ -1,4 +1,4 @@
-.findId-container{
+.Doctor-findId-container{
    width: 980px;
   margin:  0 auto;
   overflow: hidden;
@@ -8,7 +8,7 @@
   height: 500px;
 } 
 
-.findId-form {
+.Doctor-findId-form {
   margin: 20px 0;
   padding: 15px;
   border-radius: 7px;
@@ -41,23 +41,23 @@ button:hover {
   
 }
 
-.findId-choicebox{
+.Doctor-findId-choicebox{
   display: flex;
   margin-left: 20px;
   
 }
-.findId-choice{
+.Doctor-findId-choice{
   border: 0.1px solid lightgray ; 
   padding: 20px;
 } 
 
-.findId-choice a{
+.Doctor-findId-choice a{
 list-style-type: none;
 text-decoration: none;
 color: black;
 }
 
-.findId-page-title{
+.Doctor-findId-page-title{
   color: #37AA8B;
     font-weight: bold;
     font-size: 25px;
@@ -65,7 +65,7 @@ color: black;
     margin-left: 30px;
 }
 
-.findId-form{
+.Doctor-findId-form{
   margin-top: 100px;
   text-align: center;
 }
@@ -84,6 +84,6 @@ img{
   display: block;
 }
 
-.findId-phone-a{
+.Doctor-findId-phone-a{
   color: white;
 }
