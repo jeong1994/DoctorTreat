@@ -1,4 +1,4 @@
-const focusBtn = document.querySelectorAll(".input-group");
+const focusBtn = document.querySelectorAll(".member-input-group");
 
 // 메시지를 배열로 정의
 const messages = [
@@ -68,7 +68,7 @@ focusBtn.forEach((inputGroup, index) => {
         }
 
          // 7) 생년월일 : 생년월일은 8자리 숫자로 입력해주세요
-         if (index === 7) { 
+         if (index === 4) { 
           const birthdatePattern = /^\d{8}$/;
           if (!birthdatePattern.test(input.value)) {
             input.style.border = "2px solid red"; 
