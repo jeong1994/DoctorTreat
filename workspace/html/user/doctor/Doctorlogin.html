@@ -10,63 +10,84 @@
 </head>
 <body>
   <header>
-    <div class="header-holder">
-      <div class="header-container">
-        <div class="header-logo">
-          <img src="./../../../image/logo.png">
-          <div>DOCTOR TREAT</div>
+    <div id="header-fixed">
+        <div class="header-holder">
+            <div class="header-container">
+                <a href="./../../../html/main/main.html">
+                    <div class="header-logo">
+                        <img src="./../../../image/logo.png">
+                        <div>DOCTOR TREAT</div>
+                      </div>
+                    </a>
+            <div class="header-btnContainer">
+                <a href="./../../../html/clinicMember/choice.html">
+                    <div class="header-quickBtn">
+                        <img src="./../../../image/chatBtn.png">
+                        <div>닥터트리톡</div>
+                    </div>
+                </a>
+                <a href="./../../../html/user/member/login.html">
+                    <div class="header-quickBtn">
+                        <img src="./../../../image/login.png">
+                        <div>로그인</div>
+                    </div>
+                </a>
+                <a href="./../../../html/user/member/join.html">
+                    <div class="header-quickBtn">
+                        <img src="./../../../image/memberJoin.png">
+                        <div>회원가입</div>
+                    </div>
+                </a>
+                <a href="./../../../html/myPage/member/hello.html">
+                    <div class="header-quickBtn">
+                        <img src="./../../../image/myPage.png">
+                        <div>마이페이지</div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="header-btnContainer">
-          <div class="header-quickBtn">
-            <img src="./../../../image/chatBtn.png">
-            <div>닥터트리톡</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="./../../../image/login.png">
-            <div>로그인</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="./../../../image/memberJoin.png">
-            <div>회원가입</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="./../../../image/myPage.png">
-            <div>마이페이지</div>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="header-hr"></div>
 
     <!-- 네비바 -->
     <div class="header-navContainer">
-      <div class="header-menu">
-        비대면진료
-        <img src="./../../../image/Clinic.png">
-      </div>
-      <div class="header-menu">
-        질병백과
-        <img src="./../../../image/encyclopedia.png">
-      </div>
-      <div class="header-menu">
-        의료지식인
-        <img src="./../../../image/Knowledge.png">
-      </div>
-      <div class="header-menu">
-        지역별 병원정보
-        <img src="./../../../image/hospitalInfo.png">
-      </div>
+        <a href="./../../../html/clinicMember/choice.html">
+            <div class="header-menu">
+                비대면진료
+                <img src="./../../../image/Clinic.png">
+            </div>
+        </a>
+
+        <a href="./../../../html/book/disease.html">
+            <div class="header-menu">
+                질병백과
+                <img src="./../../../image/encyclopedia.png">
+            </div>
+        </a>
+        <a href="./../../../html/board/member/medicalKnowledgeList.html">
+            <div class="header-menu">
+                의료지식인
+                <img src="./../../../image/Knowledge.png">
+            </div>
+        </a>
+        <a href="./../../../html/hospital/hospitalInfo.html">
+            <div class="header-menu">
+                지역별 병원정보
+                <img src="./../../../image/hospitalInfo.png">
+            </div>
+        </a>
     </div>
-  </header>
+    </div>
+</header>
   <main>
-    <div class="Doctor-container">
+    <div class="container">
       <h1>로그인</h1>
       <form action="/login" method="POST">
-          <div class="Doctor-input-group">
+          <div class="input-group">
               <label for="username">아이디</label>
               <input type="text" id="username" name="username" required>
           </div>
-          <div class="Doctor-input-group">
+          <div class="input-group">
               <label for="password">비밀번호</label>
               <input type="password" id="password" name="password" required>
           </div>
@@ -77,14 +98,14 @@
           <br><br>
           <input type="checkbox">로그인 상태 유지
           <br><br>
-          <button type="submit" class="Doctor-button">로그인</button>
+          <button type="submit" class="button">로그인</button>
       </form>
       <br><br>
-      <span class="Doctor-login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
+      <span class="login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
       <br><br>
-      <button type="submit" class="Doctor-button">개인회원 가입하기</button>
+      <button type="submit" class="button">개인회원 가입하기</button>
       <br><br>
-      <button type="submit" class="Doctor-button">의사회원 가입하기</button>
+      <button type="submit" class="button">의사회원 가입하기</button>
     </div>
   </main>
   <footer>
@@ -115,5 +136,6 @@
       <br>
     </div>
   </footer>
+  <script src="./../../../js/user/member/login.js"></script>
 </body>
 </html>
