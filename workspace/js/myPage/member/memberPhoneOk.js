@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.DoctorPhoneOk-input-field');
+const inputs = document.querySelectorAll('.memberPhoneOk-input-field');
 
 inputs.forEach(input => {
     input.addEventListener('focus', () => {
@@ -16,20 +16,20 @@ inputs.forEach(input => {
     });
 });
 
-document.getElementById("phoneInput").addEventListener("focus", function() {
+document.getElementById("member-phoneInput").addEventListener("focus", function() {
     this.classList.remove("error");
-    document.getElementById("errorMessage").style.display = "none";
+    document.getElementById("member-errorMessage").style.display = "none";
 });
 
-document.getElementById("phoneInput").addEventListener("blur", function() {
+document.getElementById("member-phoneInput").addEventListener("blur", function() {
     if (this.value === "") {
         this.classList.add("error");
-        document.getElementById("errorMessage").style.display = "block";
+        document.getElementById("member-errorMessage").style.display = "block";
     }
 });
 
 function validateInput() {
-    var phoneInput = document.getElementById("phoneInput").value;
+    var phoneInput = document.getElementById("member-phoneInput").value;
     if (phoneInput === "") {
         document.getElementById("phoneInput").classList.add("error");
         document.getElementById("errorMessage").style.display = "block";

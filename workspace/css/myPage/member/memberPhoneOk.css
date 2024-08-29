@@ -61,11 +61,21 @@
     text-align: center;
     line-height: 50px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
 .memberPhoneOk-btn a{
     color: white;
     font-size: 16px;
     font-weight: bold;
+}
+.memberPhoneOk-requestbtn:hover{
+    background-color: #2a8a70;
+}
+.memberPhoneOk-btn:hover{
+    background-color: #2a8a70;
 }
 
 .memberPhoneOk-input-field.focus {
