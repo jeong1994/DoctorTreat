@@ -6,7 +6,7 @@
 
 
 
-.member-signup-container {
+.Doctor-signup-container {
   background-color: #fff;
   /* padding: 20px; */
   border-radius: 8px;
@@ -15,14 +15,14 @@
   margin-bottom: 50px;
 }
 
-.member-signup-container h2 {
+.Doctor-signup-container h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #37aa8b;
   margin-top: 50px;
 }
 
-.member-input-group {
+.Doctor-input-group {
   margin-bottom: 15px;
   position: relative;
 }
@@ -33,14 +33,14 @@
   margin-bottom: 5px;
 }
 
-.member-input-group input {
+.Doctor-input-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.member-input-group button {
+.Doctor-input-group button {
   margin-top: 10px;
   padding: 10px;
   background-color: #37aa8b;
@@ -50,29 +50,29 @@
   cursor: pointer;
 }
 
-.member-input-group button:hover {
+.Doctor-input-group button:hover {
   background-color: #2a8a70;
 }
 
-.input-group1 {
+.Doctor-input-group1 {
   margin-bottom: 15px;
   position: relative;
 }
 
-.input-group1 label  {
+.Doctor-input-group1 label  {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.input-group1 input {
+.Doctor-input-group1 input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.input-group1 button {
+.Doctor-input-group1 button {
   margin-top: 10px;
   padding: 10px;
   background-color: #37aa8b;
@@ -81,11 +81,11 @@
   cursor: pointer;
 }
 
-.input-group1 button:hover {
+.Doctor-input-group1 button:hover {
   background-color: #2a8a70;
 }
 
-.signup-btn {
+.Doctor-signup-btn {
   background-color: #37aa8b;
   color: white;
   border: none;
@@ -102,19 +102,19 @@
   background-color: #2a8a70;
 }
 
-.join-checkIdBtn{
+.Doctor-join-checkIdBtn{
   position: absolute;
   right: 1px;
   top: -8px;
 }
 
-.join-request{
+.Doctor-join-request{
   position: absolute;
   right: 1px;
   top: -8px;
 }
 
-.memberjoin-view-first {
+.Doctor-view-first {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -123,7 +123,7 @@
   display: block;
 
 }
-.memberjoin-view-second {
+.Doctor-view-second {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -134,7 +134,7 @@
 }
 
 
-.memberjoin-noview-first {
+.Doctor-noview-first {
   width: 30px;
   height: 30px;
   position: absolute;
@@ -142,7 +142,7 @@
   top: 5px;
   display: none;
 }
-.memberjoin-noview-second {
+.Doctor-noview-second {
   width: 30px;
   height: 30px;
   position: absolute;
