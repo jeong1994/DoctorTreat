@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,83 +9,106 @@
   <link rel="stylesheet" href="./../../../css/user/member/memberlogin.css">
   <title>로그인</title>
 </head>
+
 <body>
   <header>
-    <div class="header-holder">
-      <div class="header-container">
-        <div class="header-logo">
-          <img src="/image/logo.png">
-          <div>DOCTOR TREAT</div>
-        </div>
-        <div class="header-btnContainer">
-          <div class="header-quickBtn">
-            <img src="/image/chatBtn.png">
-            <div>닥터트리톡</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="/image/login.png">
-            <div>로그인</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="/image/memberJoin.png">
-            <div>회원가입</div>
-          </div>
-          <div class="header-quickBtn">
-            <img src="/image/myPage.png">
-            <div>마이페이지</div>
+    <div id="header-fixed">
+      <div class="header-holder">
+        <div class="header-container">
+          <a href="./../../../html/main/main.html">
+            <div class="header-logo">
+              <img src="./../../../image/logo.png">
+              <div>DOCTOR TREAT</div>
+            </div>
+          </a>
+          <div class="header-btnContainer">
+            <a href="./../../../html/clinicMember/choice.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/chatBtn.png">
+                <div>닥터트리톡</div>
+              </div>
+            </a>
+            <a href="./../../../html/user/member/memberlogin.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/login.png">
+                <div>로그인</div>
+              </div>
+            </a>
+            <a href="./../../../html/user/member/memberjoin.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/memberJoin.png">
+                <div>회원가입</div>
+              </div>
+            </a>
+            <a href="./../../../html/myPage/doctor/DoctorInfo.html">
+              <div class="header-quickBtn">
+                <img src="./../../../image/myPage.png">
+                <div>마이페이지</div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="header-hr"></div>
+      <div class="header-hr"></div>
 
-    <!-- 네비바 -->
-    <div class="header-navContainer">
-      <div class="header-menu">
-        비대면진료
-        <img src="/image/Clinic.png">
-      </div>
-      <div class="header-menu">
-        질병백과
-        <img src="/image/encyclopedia.png">
-      </div>
-      <div class="header-menu">
-        의료지식인
-        <img src="/image/Knowledge.png">
-      </div>
-      <div class="header-menu">
-        지역별 병원정보
-        <img src="/image/hospitalInfo.png">
+      <!-- 네비바 -->
+      <div class="header-navContainer">
+        <a href="./../../../html/clinicMember/choice.html">
+          <div class="header-menu">
+            비대면진료
+            <img src="./../../../image/Clinic.png">
+          </div>
+        </a>
+
+        <a href="./../../../html/book/disease.html">
+          <div class="header-menu">
+            질병백과
+            <img src="./../../../image/encyclopedia.png">
+          </div>
+        </a>
+        <a href="./../../../html/board/member/medicalKnowledgeList.html">
+          <div class="header-menu">
+            의료지식인
+            <img src="./../../../image/Knowledge.png">
+          </div>
+        </a>
+        <a href="./../../../html/hospital/hospitalInfo.html">
+          <div class="header-menu">
+            지역별 병원정보
+            <img src="./../../../image/hospitalInfo.png">
+          </div>
+        </a>
       </div>
     </div>
   </header>
+
   <main>
-    <div class="container">
+    <div class="member-container">
       <h1>로그인</h1>
       <form action="/login" method="POST">
-          <div class="input-group">
-              <label for="username">아이디</label>
-              <input type="text" id="username" name="username" required>
-          </div>
-          <div class="input-group">
-              <label for="password">비밀번호</label>
-              <input type="password" id="password" name="password" required>
-          </div>
-          <div class="login-findmessage">
-            <a href="#"><span>아이디 찾기</span></a> 
-          <a href="#"><span>비밀번호 찾기</span></a>
-          </div>
-          <br><br>
-          <input type="checkbox">로그인 상태 유지
-          <br><br>
-          <button type="submit" class="button">로그인</button>
+        <div class="member-input-group">
+          <label for="username">아이디</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="member-input-group">
+          <label for="password">비밀번호</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="login-findmessage">
+          <a href="./../../../html/user/member/memberfindId.html"><span>아이디 찾기</span></a>
+          <a href="./../../../html/user/member/memberfindPw.html"><span>비밀번호 찾기</span></a>
+        </div>
+        <br><br>
+        <input type="checkbox">로그인 상태 유지
+        <br><br>
+        <button type="submit" class="member-button"><a href="./../../../html/main/main.html">로그인</a></button>
       </form>
       <br><br>
-      <span class="login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
+      <span class="member-login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
       <br><br>
-      <button type="submit" class="button">개인회원 가입하기</button>
+      <button type="submit" class="member-button"><a href="./../../../html/user/member/memberjoin.html">개인회원 가입하기</a></button>
       <br><br>
-      <button type="submit" class="button">의사회원 가입하기</button>
+      <button type="submit" class="member-button"><a href="./../../../html/user/doctor/Doctorjoin.html">의사회원 가입하기</button></a>
     </div>
   </main>
   <footer>
@@ -117,4 +141,5 @@
   </footer>
   <script src="./../../../js/user/member/login.js"></script>
 </body>
+
 </html>
