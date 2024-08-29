@@ -1,4 +1,4 @@
-.DoctorfindId-container{
+.findId-container{
    width: 980px;
   margin:  0 auto;
   overflow: hidden;
@@ -8,7 +8,7 @@
   height: 500px;
 } 
 
-.DoctorfindId-form {
+.findId-form {
   margin: 20px 0;
   padding: 15px;
   border-radius: 7px;
@@ -41,23 +41,23 @@ button:hover {
   
 }
 
-.DoctorfindId-choicebox{
+.findId-choicebox{
   display: flex;
   margin-left: 20px;
   
 }
-.DoctorfindId-choice{
+.findId-choice{
   border: 0.1px solid lightgray ; 
   padding: 20px;
 } 
 
-.DoctorfindId-choice a{
+.findId-choice a{
 list-style-type: none;
 text-decoration: none;
 color: black;
 }
 
-.DoctorfindId-page-title{
+.findId-page-title{
   color: #37AA8B;
     font-weight: bold;
     font-size: 25px;
@@ -65,7 +65,7 @@ color: black;
     margin-left: 30px;
 }
 
-.DoctorfindId-form{
+.findId-form{
   margin-top: 100px;
   text-align: center;
 }
@@ -84,3 +84,6 @@ img{
   display: block;
 }
 
+.findId-phone-a{
+  color: white;
+}

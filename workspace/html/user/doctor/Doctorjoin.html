@@ -79,47 +79,105 @@
             </div>
         </a>
     </div>
-    </div>
+    
 </header>
+
   <main class="member-background">
-    <div class="Doctor-signup-container">
-      <h2>회원가입</h2>
+    <div class="signup-container">
+      <a href="./../../../html/user/member/memberjoin.html">
+        <h2>회원가입</h2>
+      </a>
       <form action="#" method="post">
-        <div class="Doctor-input-group">
-          <label for="username">아이디</label>
-          <input type="text" id="username" name="username" required>
-          <p></p>
+
+        <label for="userId">아이디</label>
+        <div class="input-group">
+          <input class="member-input-focus" type="text" id="userId" name="userId" required>
+          <button class="join-checkIdBtn">중복 확인</button>
+          <p class="memberjoin-Null"></p>
         </div>
-        <div class="Doctor-input-group">
-          <label for="email">비밀번호</label>
-          <input type="email" id="email" name="email" required>
-          <p></p>
-        </div>
-        <div class="Doctor-input-group">
-          <label for="password">비밀번호 확인</label>
+
+        <label for="password">비밀번호</label>
+        <div class="input-group">
           <input type="password" id="password" name="password" required>
+          <img class="memberjoin-view-first" src="./../../../image/view.png">
+          <img class="memberjoin-noview-first" src="./../../../image/noview.png">
+          <p class="memberjoin-Null"></p>
         </div>
-        <div class="Doctor-input-group">
-          <label for="confirm-password">이름</label>
+
+        <label for="confirm-password">비밀번호 확인</label>
+        <div class="input-group">
           <input type="password" id="confirm-password" name="confirm-password" required>
+          <img class="memberjoin-view-second" src="./../../../image/view.png">
+          <img class="memberjoin-noview-second" src="./../../../image/noview.png">
+          <p class="memberjoin-Null"></p>
         </div>
-        <div class="Doctor-input-group">
-          <label for="postcode">우편번호</label>
-          <input type="text" id="postcode" name="postcode" readonly required>
-          <button type="button" onclick="execDaumPostcode()">우편번호 찾기</button>
+
+        <label for="userName">이름</label>
+        <div class="input-group">
+          <input type="text" id="userName" name="userName" required>
+          <p class="memberjoin-Null"></p>
         </div>
-        <div class="Doctor-input-group">
-          <label for="address">생년월일</label>
-          <input type="text" id="address" name="address" readonly required>
+
+        <div class="input-group1">
+          <input type="text" id="postcode" placeholder="우편번호">
+          <button class="postcode-search" onclick="execDaumPostcode()">주소 찾기</button>
         </div>
-        <div class="Doctor-input-group">
-          <label for="detailAddress">핸드폰 번호</label>
-          <input type="text" id="detailAddress" name="detailAddress" required>
+        <div class="input-group1">
+          <input type="text" id="address" placeholder="주소">
         </div>
-        <button type="submit" class="Doctor-signup-btn">가입하기</button>
+        <div class="input-group1">
+          <input type="text" id="detailAddress" placeholder="상세 주소">
+        </div>
+
+        <label for="birth">생년월일</label>
+        <div class="input-group">
+          <input type="text" id="birth" name="birth" required>
+          <p class="memberjoin-Null"></p>
+        </div>
+
+        <label for="phoneNumber">핸드폰 번호</label>
+        <div class="input-group">
+          <input type="text" id="phoneNumber" name="phoneNumber" required>
+          <button class="join-request">인증 요청</button>
+          <p class="memberjoin-Null"></p>
+        </div>
+
+        <br>
+
+        <div class="container">
+          <form id="terms-form" action="submit_form.php" method="post">
+            <!-- 전체 동의 체크박스 -->
+            <div class="checkbox-container">
+              <input type="checkbox" id="agree-all-checkbox">
+              <label for="agree-all-checkbox"><strong>전체 약관에 동의합니다.</strong></label>
+            </div>
+            <hr>
+            <br>
+            <!-- 개별 약관 체크박스들 -->
+            <div class="checkbox-container">
+              <input type="checkbox" id="terms1" class="agree-checkbox">
+              <label for="terms1">전화처방 등 원격진료 서비스는 정부 정책의 변경에 따라 예고 없이 중단될 수 있으며, 회사는 이에 대해 아무런 책임을 지지 않습니다.</label>
+            </div>
+            <br>
+            <div class="checkbox-container">
+              <input type="checkbox" id="terms2" class="agree-checkbox">
+              <label for="terms2">닥터트리 및 닥터트리 관련 제반 서비스의 이용과 관련하여 필요한 사항을 규정합니다.</label>
+            </div>
+            <br>
+            <div class="checkbox-container">
+              <input type="checkbox" id="terms3" class="agree-checkbox">
+              <label for="terms3">개인 정보 수집 및 이용에 동의합니다.</label>
+            </div>
+          </form>
+        </div>
+
+        <br><br>
+
+        <button type="submit" class="signup-btn">가입하기</button>
       </form>
     </div>
   </main>
+
   <footer>
     <br>
     <div id="footer-footer">
@@ -148,6 +206,8 @@
       <br>
     </div>
   </footer>
+  <script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
+  <script src="./../../../js/myPage/member/memberjoin.js"></script>
 </body>
 
 </html>
