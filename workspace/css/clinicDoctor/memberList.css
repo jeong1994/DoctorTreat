@@ -9,7 +9,8 @@ main {
   height: 100%;
   margin: 0 auto;
 }
-.memberList-topContainer{
+
+.memberList-topContainer {
   display: flex;
   justify-content: space-between;
 }
