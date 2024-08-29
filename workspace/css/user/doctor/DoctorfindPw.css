@@ -8,7 +8,7 @@ img{
   display: block;
 }
 
-.findPw-container{
+.Doctor-findPw-container{
   width: 980px;
  margin:  0 auto;
  overflow: hidden;
@@ -18,7 +18,7 @@ img{
  height: 500px;
 } 
 
-.findPw-form {
+.Doctor-findPw-form {
  margin: 20px 0;
  padding: 15px;
  border: 0.1px solid lightgray;
@@ -32,7 +32,7 @@ h2 {
  margin-bottom: 10px;
 }
 
-.findPw-button{
+.Doctor-findPw-button{
  padding: 10px 15px;
  border: none;
  border-radius: 25px;
@@ -54,24 +54,24 @@ p{
  font-size: 10px;
 }
 
-.findPw-choicebox{
+.Doctor-findPw-choicebox{
  display: flex;
  margin-left: 20px;
 }
 
-.findPw-choice{
+.Doctor-findPw-choice{
  border: 0.1px solid lightgray ; 
  padding: 20px;
 } 
 
 
-.findPw-choice a{
+.Doctor-findPw-choice a{
 list-style-type: none;
 text-decoration: none;
 color: black;
 }
 
-.findPw-page-title{
+.Doctor-findPw-page-title{
  color: #37AA8B;
    font-weight: bold;
    font-size: 25px;
@@ -79,7 +79,7 @@ color: black;
    margin-left: 30px;
 }
 
-.findPw-form{
+.Doctor-findPw-form{
  margin-top: 100px;
  text-align: center;
 }
@@ -88,13 +88,13 @@ form p{
  margin-top: 10px;
 }
 
-.findPw-input{
+.Doctor-findPw-input{
   height: 50px;
   width: 450px;
   border: 0.1px solid lightgray;
 }
 
-.findPw-form-one, .findPw-form-two{
+.Doctor-findPw-form-one, .Doctor-findPw-form-two{
   text-align: center;
   margin-top: 10px;
 }

@@ -16,24 +16,25 @@ inputs.forEach(input => {
     });
 });
 
-document.getElementById("phoneInput").addEventListener("focus", function() {
-    this.classList.remove("error");
-    document.getElementById("errorMessage").style.display = "none";
+const phoneInput = document.getElementById('phoneInput');
+const errorMessage = document.getElementById('errorMessage');
+const errorText = document.getElementById('errorText');
+
+phoneInput.addEventListener('focus', function() {
+    errorMessage.style.display = 'none'; // 포커스 시 에러 메시지 숨김
+    errorText.classList.remove('error'); // 에러 클래스 제거
 });
 
-document.getElementById("phoneInput").addEventListener("blur", function() {
-    if (this.value === "") {
-        this.classList.add("error");
-        document.getElementById("errorMessage").style.display = "block";
-    }
-});
-
-function validateInput() {
-    var phoneInput = document.getElementById("phoneInput").value;
-    if (phoneInput === "") {
-        document.getElementById("phoneInput").classList.add("error");
-        document.getElementById("errorMessage").style.display = "block";
+phoneInput.addEventListener('blur', function() {
+    if (phoneInput.value.trim() === '') {
+        errorMessage.style.display = 'block'; // 값이 없을 때 에러 메시지 보임
+        errorText.classList.add('error'); // 빨간색으로 변경
     } else {
-        document.getElementById("errorMessage").style.display = "none";
+        errorMessage.style.display = 'none'; // 값이 있을 때 에러 메시지 숨김
+        errorText.classList.remove('error'); // 에러 클래스 제거
     }
-}
+});
+
+
+
+
