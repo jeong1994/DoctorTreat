@@ -1,41 +1,41 @@
-.DoctorInfo-main-container {
+.memberInfo-main-container {
   width: 980px;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 70px;
   height: 800px;
 }
-.DoctorInfo-title {
+.memberInfo-title {
   color: #37aa8b;
   font-size: 25px;
   font-weight: bold;
   margin-top: 40px;
 }
-.DoctorInfo-inputbox {
+.memberInfo-inputbox {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.DoctorInfo-inputbox form input {
+.memberInfo-inputbox form input {
   margin-top: 10px;
   margin-bottom: 20px;
   width: 450px;
   height: 50px;
 }
-.DoctorInfo-inputbox form {
+.memberInfo-inputbox form {
   font-size: 14px;
 }
-.DoctorInfo-inputbox form:first-child {
+.memberInfo-inputbox form:first-child {
   margin-top: 60px;
 }
 
-.DoctorInfo-input {
+.memberInfo-input {
   width: 550px;
   display: flex;
   line-height: 70px;
   justify-content: space-between;
 }
-.DoctorInfo-btn {
+.memberInfo-btn {
   margin: 0 auto;
   width: 350px;
   height: 50px;
@@ -45,9 +45,16 @@
   line-height: 50px;
   cursor: pointer;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
-.DoctorInfo-btn a {
+.memberInfo-btn a {
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+.memberInfo-btn:hover{
+  background-color: #2a8a70;
 }

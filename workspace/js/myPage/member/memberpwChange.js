@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll('.DoctorpwChange-input-field');
+const inputs = document.querySelectorAll('.memberpwChange-input-field');
 
 inputs.forEach(input => {
     input.addEventListener('focus', () => {

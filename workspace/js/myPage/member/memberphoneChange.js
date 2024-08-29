@@ -1,5 +1,5 @@
 // 모든 input 필드를 선택
-document.querySelectorAll('.DoctorphoneChange-input-field').forEach(inputField => {
+document.querySelectorAll('.memberphoneChange-input-field').forEach(inputField => {
     // input 필드에 포커스가 되었을 때
     inputField.addEventListener('focus', function() {
         this.style.borderColor = 'black';  // 테두리 색을 검정색으로 변경
