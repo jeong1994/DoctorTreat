@@ -9,77 +9,77 @@
     <title>DoctorTreat - 휴대폰번호인증</title>
 </head>
 <body>
-  <header>
-    <div id="header-fixed">
-      <div class="header-holder">
-        <div class="header-container">
-          <a href="./../../../html/main/main.html">
-            <div class="header-logo"> 
-              <img src="./../../../image/logo.png">
-              <div>DOCTOR TREAT</div>
+    <header>
+        <div id="header-fixed">
+            <div class="header-holder">
+                <div class="header-container">
+                    <a href="./../../../html/main/main.html">
+                        <div class="header-logo">
+                            <img src="./../../../image/logo.png">
+                            <div>DOCTOR TREAT</div>
+                          </div>
+                        </a>
+                <div class="header-btnContainer">
+                    <a href="./../../../html/clinicMember/choice.html">
+                        <div class="header-quickBtn">
+                            <img src="./../../../image/chatBtn.png">
+                            <div>닥터트리톡</div>
+                        </div>
+                    </a>
+                    <a href="./../../../html/user/member/memberlogin.html">
+                        <div class="header-quickBtn">
+                            <img src="./../../../image/login.png">
+                            <div>로그인</div>
+                        </div>
+                    </a>
+                    <a href="./../../../html/user/member/memberjoin.html">
+                        <div class="header-quickBtn">
+                            <img src="./../../../image/memberJoin.png">
+                            <div>회원가입</div>
+                        </div>
+                    </a>
+                    <a href="./../../../html/myPage/member/memberInfo.html">
+                        <div class="header-quickBtn">
+                            <img src="./../../../image/myPage.png">
+                            <div>마이페이지</div>
+                        </div>
+                    </a>
+                </div>
             </div>
-          </a>
-          <div class="header-btnContainer">
-            <a href="./../../../html/clinicMember/choice.html">
-              <div class="header-quickBtn">
-                <img src="./../../../image/chatBtn.png">
-                <div>닥터트리톡</div>
-              </div>
-            </a>
-            <a href="./../../../html/user/member/memberlogin.html">
-              <div class="header-quickBtn">
-                <img src="./../../../image/login.png">
-                <div>로그인</div>
-              </div>
-            </a>
-            <a href="./../../../html/user/member/memberjoin.html">
-              <div class="header-quickBtn">
-                <img src="./../../../image/memberJoin.png">
-                <div>회원가입</div>
-              </div>
-            </a>
-            <a href="./../../../html/myPage/doctor/DoctorInfo.html">
-              <div class="header-quickBtn">
-                <img src="./../../../image/myPage.png">
-                <div>마이페이지</div>
-              </div>
-            </a>
-          </div>
         </div>
-      </div>
-      <div class="header-hr"></div>
-
-      <!-- 네비바 -->
-      <div class="header-navContainer">
-        <a href="./../../../html/clinicMember/choice.html">
-          <div class="header-menu">
-            비대면진료
-            <img src="./../../../image/Clinic.png">
-          </div>
-        </a>
-
-        <a href="./../../../html/book/disease.html">
-          <div class="header-menu">
-            질병백과
-            <img src="./../../../image/encyclopedia.png">
-          </div>
-        </a>
-        <a href="./../../../html/board/member/medicalKnowledgeList.html">
-          <div class="header-menu">
-            의료지식인
-            <img src="./../../../image/Knowledge.png">
-          </div>
-        </a>
-        <a href="./../../../html/hospital/hospitalInfo.html">
-          <div class="header-menu">
-            지역별 병원정보
-            <img src="./../../../image/hospitalInfo.png">
-          </div>
-        </a>
-      </div>
-    </div>
-  </header>
-      <div class="memberPhoneOk-main-container">
+        <div class="header-hr"></div>
+    
+        <!-- 네비바 -->
+        <div class="header-navContainer">
+            <a href="./../../../html/clinicMember/choice.html">
+                <div class="header-menu">
+                    비대면진료
+                    <img src="./../../../image/Clinic.png">
+                </div>
+            </a>
+    
+            <a href="./../../../html/book/disease.html">
+                <div class="header-menu">
+                    질병백과
+                    <img src="./../../../image/encyclopedia.png">
+                </div>
+            </a>
+            <a href="./../../../html/board/member/medicalKnowledgeList.html">
+                <div class="header-menu">
+                    의료지식인
+                    <img src="./../../../image/Knowledge.png">
+                </div>
+            </a>
+            <a href="./../../../html/hospital/hospitalInfo.html">
+                <div class="header-menu">
+                    지역별 병원정보
+                    <img src="./../../../image/hospitalInfo.png">
+                </div>
+            </a>
+        </div>
+        </div>
+    </header>
+    <div class="memberPhoneOk-main-container">
         <div class="memberPhoneOk-titlebox">
             <p class="memberPhoneOk-title">본인인증</p>
             <hr class="memberPhoneOk-hr">
@@ -90,7 +90,10 @@
                 <p class="memberPhoneOk-text">휴대폰 번호 인증</p>
 
                 <div class="memberPhoneOk-Okbtn">
-                    <input type="text" class="memberPhoneOk-input-field">
+                    <input type="text" class="memberPhoneOk-input-field" id="member-phoneInput">
+                    <div class="memberPhoneOk-textbox" id="errorMessage">
+                      <p>010-0000-0000 양식으로 작성해주세요</p>
+                    </div>
                     <button class="memberPhoneOk-requestbtn">
                         <p>인증요청</p>
                     </button>
@@ -98,13 +101,13 @@
             </form>
         </div>
 
-        <div class="memberPhoneOk-textbox">
+        <div class="memberPhoneOk-textbox" id="member-errorMessage">
             <p>010-0000-0000 양식으로 작성해주세요</p>
         </div>
 
-        <div class="memberPhoneOk-btn">
-            <p><a href="./../../myPage/member/memberpwChange.html">인증완료</a></p>
-          </div>
+        <button class="memberPhoneOk-btn">
+            <p><a href="./../../myPage/doctor/DoctorpwChange.html">인증완료</a></p>
+        </button>
       </div>
 
       <footer>
@@ -136,6 +139,6 @@
         </div>
       </footer>
 
-      <script src="./../../../js/myPage/memberPhoneOk.js"></script>
+      <script src="./../../../js/myPage/member/memberPhoneOk.js"></script>
 </body>
 </html>
