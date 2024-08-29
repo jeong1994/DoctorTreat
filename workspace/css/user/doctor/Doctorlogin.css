@@ -11,7 +11,7 @@ main{
   width: 980px;
 }
 
-.member-container {
+.Doctor-container {
   padding: 30px;
   border-radius: 8px;
   width: 500px;
@@ -19,7 +19,7 @@ main{
   margin-left: 470px;
 }
 
-.member-login-messagetwo{
+.Doctor-login-messagetwo{
   font-size: 14px;
   text-align: center;
   margin-left: 55px;
@@ -31,21 +31,21 @@ h1 {
   color: #37aa8b;
   font-size: 25px;
 }
-.member-input-group {
+.Doctor-input-group {
   margin-bottom: 15px;
 }
-.member-input-group label {
+.Doctor-input-group label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
-.member-input-group input {
+.Doctor-input-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
 }
-.member-button {
+.Doctor-button {
   background-color: #37aa8b;
   color: white;
   border: none;
@@ -59,11 +59,11 @@ h1 {
   font-size: 16px;
 }
 
-.member-button a{
+.Doctor-button a{
   color: white;
 }
 
 
-.member-button:hover {
+.Doctor-button:hover {
   background-color: #2a8a70;
 }

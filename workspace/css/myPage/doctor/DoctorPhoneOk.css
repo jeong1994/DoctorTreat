@@ -50,7 +50,6 @@
     align-items: center;
     margin-bottom: 30px;
     color: red;
-    display: none;
 }
 
 .DoctorPhoneOk-btn{
@@ -85,4 +84,11 @@
 
 .DoctorPhoneOk-input-field.blur {
     border: 1px solid red;
+}
+#errorMessage {
+    display: none;
+}
+
+.error {
+    color: red;
 }
