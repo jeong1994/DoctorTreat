@@ -4,18 +4,11 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 
 
 .member-signup-container {
   background-color: #fff;
-<<<<<<< HEAD
-=======
   /* padding: 20px; */
->>>>>>> main
   border-radius: 8px;
   max-width: 400px;
   margin: 0 auto;
@@ -27,10 +20,6 @@
   margin-bottom: 20px;
   color: #37aa8b;
   margin-top: 50px;
-<<<<<<< HEAD
-  font-size: 25px;
-=======
->>>>>>> main
 }
 
 .member-input-group {
@@ -38,11 +27,7 @@
   position: relative;
 }
 
-<<<<<<< HEAD
-.member-input-group label {
-=======
 .input-group label  {
->>>>>>> main
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
@@ -69,9 +54,6 @@
   background-color: #2a8a70;
 }
 
-<<<<<<< HEAD
-.member-signup-btn {
-=======
 .input-group1 {
   margin-bottom: 15px;
   position: relative;
@@ -93,13 +75,10 @@
 .input-group1 button {
   margin-top: 10px;
   padding: 10px;
->>>>>>> main
   background-color: #37aa8b;
   color: white;
   border: none;
   cursor: pointer;
-<<<<<<< HEAD
-=======
 }
 
 .input-group1 button:hover {
@@ -112,7 +91,6 @@
   border: none;
   /* padding: 10px; */
   cursor: pointer;
->>>>>>> main
   border-radius: 25px;
   transition: background-color 0.3s;
   width: 400px;
@@ -124,18 +102,6 @@
   background-color: #2a8a70;
 }
 
-<<<<<<< HEAD
-.member-join-checkIdBtn{
-  position: absolute;
-  right: 1px;
-  top: 16px;
-}
-
-.member-join-request{
-  position: absolute;
-  right: 1px;
-  top: 16px;
-=======
 .join-checkIdBtn{
   position: absolute;
   right: 1px;
@@ -183,5 +149,4 @@
   right: 10px;
   top: 5px;
   display: none;
->>>>>>> main
 }
