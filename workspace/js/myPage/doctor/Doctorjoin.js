@@ -6,7 +6,6 @@ const messages = [
   "비밀번호가 필요합니다",
   "비밀번호확인이 필요합니다",
   "이름이 필요합니다",
-  "생년월일이 필요합니다",
   "전화번호가 필요합니다",
 ];
 
@@ -63,16 +62,6 @@ focusBtn.forEach((inputGroup, index) => {
           if (input.value !== passwordInput.value) {
             input.style.border = "2px solid red";
             message.textContent = "비밀번호가 일치하지 않습니다.";
-            message.style.color = "red";
-          }
-        }
-
-         // 7) 생년월일 : 생년월일은 8자리 숫자로 입력해주세요
-         if (index === 4) { 
-          const birthdatePattern = /^\d{8}$/;
-          if (!birthdatePattern.test(input.value)) {
-            input.style.border = "2px solid red"; 
-            message.textContent = "생년월일은 8자리 숫자로 입력해주세요.";
             message.style.color = "red";
           }
         }
