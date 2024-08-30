@@ -118,6 +118,7 @@ main {
   border: none;
   border-radius: 7px;
   background-color: #ececec;
+  pointer-events: none;
 }
 
 #chatRoom-submit {
