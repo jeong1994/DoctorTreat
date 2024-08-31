@@ -32,6 +32,7 @@ main {
   font-weight: bold;
   color: white;
   background-color: #37aa8b;
+  border: none;
   border-radius: 7px;
   margin: 40px 50px 0 0;
   cursor: pointer;
@@ -104,3 +105,7 @@ li {
   font-size: 18px;
   color: black;
 }
+
+#memberList-exitClinic:hover{
+  background-color: #2e9278
+} 

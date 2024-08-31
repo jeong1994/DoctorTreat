@@ -23,6 +23,7 @@ main {
   color: white;
   font-size: 30px;
   font-weight: bold;
+  border: none;
   border-radius: 7px;
   width: 500px;
   height: 150px;
@@ -35,3 +36,7 @@ main {
 main a {
   text-decoration: none;
 }
+
+#startClinic-startBtn:hover{
+  background-color: #2e9278
+} 
