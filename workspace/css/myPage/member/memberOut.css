@@ -1,40 +1,42 @@
-.memberOut-main-container{
+.memberOut-main-container {
     width: 980px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 70px;
     height: 600px;
 }
-.memberOut-title{
+
+.memberOut-title {
     color: #37aa8b;
     font-size: 25px;
     font-weight: bold;
     margin-top: 40px;
 }
+
 .memberOut-idtext,
-.memberOut-pwtext{
+.memberOut-pwtext {
     font-size: 14px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.memberOut-inputbox{
+
+.memberOut-inputbox {
     width: 980px;
     margin: 0 auto;
     align-items: center;
     display: flex;
     justify-content: center;
-    
     margin-bottom: 60px;
     margin-top: 20px;
 }
 
-.memberOut-inputbox input{
+.memberOut-inputbox input {
     width: 450px;
     height: 50px;
     margin-top: 10px;
 }
 
-.memberOut-btn{
+.memberOut-btn {
     margin: 0 auto;
     width: 350px;
     height: 50px;
@@ -51,9 +53,11 @@
     align-items: center;
     border: none;
 }
-.memberOut-btn:hover{
+
+.memberOut-btn:hover {
     background-color: #2a8a70;
 }
+
 .memberOut-input-field.focus {
     border: 1px solid blue;
 }
@@ -62,8 +66,14 @@
     border: 1px solid red;
 }
 
+.memberOut-btn a {
+    color: white;
+}
+
+
 /* 회원탈퇴 모달창 css */
-.memberOut-modal{
+
+.memberOut-modal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +86,7 @@
     border-radius: 7px;
 }
 
-.memberOut-modal-content{
+.memberOut-modal-content {
     width: 300px;
     height: 100px;
     display: flex;
@@ -85,7 +95,8 @@
     align-items: center;
     padding: 20px;
 }
-.memberOut-modal button{
+
+.memberOut-modal button {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
