@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DoctorTreat - 채팅방</title>
+  <title>DoctorTreat - 처방전작성</title>
   <link rel="stylesheet" href="./../../css/main/basic.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="./../../css/clinicMember/chatRoom.css">
+  <link rel="stylesheet" href="./../../css/clinicMember/Chart.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <script defer src="./../../js/clinicMember/chart.js"></script>
 </head>
 
 <body>
@@ -83,49 +86,46 @@
     </div>
   </header>
 
-  <!-- 채팅창 -->
   <main>
-    <!-- 의사 -->
-    <div class="chatRoom-topContainer">
-      <div class="chatRoom-title">비대면진료</div>
+    <!-- 처방전 작성 -->
+    <div id="writeChart-title">처방전 작성</div>
+    <div class="writeChart-container">
+      <div class="writeChart-top">처방전</div>
+      <!-- 자동입력 정보 -->
+      <div class="writeChart-pullInfo">
+        <div class="writeChart-memberName">
+          <span class="writeChart-pullPushInfo">환자명</span><span class="writeChart-pullInner">차은우</span>
+        </div>
+        <div class="writeChart-memberBirth">
+          <span class="writeChart-pullPushInfo">환자 생년월일</span><span class="writeChart-pullInner">1994.10.21</span>
+        </div>
+        <div class="writeChart-clinicDate">
+          <span class="writeChart-pullPushInfo">진료 날짜</span><span class="writeChart-pullInner">2024.08.31</span>
+        </div>
+        <div class="writeChart-hospital">
+          <span class="writeChart-pullPushInfo">병원명</span><span class="writeChart-pullInner">아주대병원</span>
+        </div>
+        <div class="writeChart-doctor">
+          <span class="writeChart-pullPushInfo">처방 의사</span><span class="writeChart-pullInner">이국종</span>
+        </div>
+      </div>
+
+      <!-- 의사입력 정보 -->
       <form action="./../../html/clinicDoctor/memberList.html" method="">
-        <button id="chatRoom-exitChatBtn">채팅 나가기</button>
+        <div class="writeChart-pushInfo">
+          <div class="writeChart-chartName">
+            <span class="writeChart-pullPushInfo">진단명</span><input class="writeChart-pushInner"></input>
+          </div>
+          <div class="writeChart-chartMedicine">
+            <span class="writeChart-pullPushInfo">처방약</span><input class="writeChart-pushInner"></input>
+          </div>
+          <div class="writeChart-way">
+            <span class="writeChart-pullPushInfo">용법</span><input class="writeChart-pushInner"></input>
+          </div>
+          <button id="writeChart-submit">처방전 등록</button>
+        </div>
       </form>
     </div>
-    <div class="chatRoom-chatBox">
-      <div class="chatRoom-doctorChat">
-        <div class="chatRoom-doctorName">양혁수 의사</div>
-        <div class="chatRoom-doctorMsgContainer">
-          <div class="chatRoom-doctorMsg">
-            안녕하세요 어디가 아프신가요?
-          </div>
-          <div class="chatRoom-doctorMsgDate">2024.08.28 17:46</div>
-        </div>
-      </div>
-      <!-- 환자 -->
-      <div class="chatRoom-memberChat">
-        <div class="chatRoom-memberName">송아성</div>
-        <div class="chatRoom-memberMsgContainer">
-          <div class="chatRoom-memberMsgDate">2024.08.28 17:46</div>
-          <div class="chatRoom-memberMsg">
-            목이 아파여
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="chatRoom-areaContainer">
-      <textarea id="chatRoom-chatArea" placeholder="채팅을 입력하세요"></textarea>
-    </div>
-
-    <form action="">
-      <button id="chatRoom-submit">보내기</button>
-    </form>
-
-    <!-- 처방전 작성 이동 -->
-    <form action="./../../html/clinicDoctor/writeChart.html" method="">
-      <button id="chatRoom-goWriteChart">처방전 작성</button>
-    </form>
   </main>
 
   <!-- 푸터 -->

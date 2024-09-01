@@ -142,3 +142,11 @@ main {
     left: 820px;
     bottom: 60px;
 }
+
+.boardDetail-modifyBtn:hover,
+.boardDetail-deleteBtn:hover,
+.boardDetail-comentContainer button:hover,
+.boardDetail-comentModify:hover,
+.boardDetail-comentDelete:hover{
+    background-color: #2e9278
+  }
