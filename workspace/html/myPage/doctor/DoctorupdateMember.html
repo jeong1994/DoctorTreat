@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../../css/main/basic.css">
     <link rel="stylesheet" href="./../../../css/myPage/doctor/DoctorupdateMember.css">
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <title>DoctorTreat - 내 병원 정보 수정</title>
 </head>
 <body>
@@ -108,15 +109,28 @@
               </label>
               <br>
               <label class="DoctorupdateMember-input" for="">
-                <span>휴대폰 번호</span>
+                <span>병원 번호</span>
                 <input type="text" value="">
               </label>
               <br>
               <label class="DoctorupdateMember-input" for="">
                 <span>병원 주소</span>
-                <button><a href="phoneChange.html">병원 번호 변경</a></button>
+                  <input type="text" id="postcode" placeholder="우편번호">
+              </label>   
+                  <br>
+              <label class="DoctorupdateMember-input" for="">  
+                  <button class="postcode-search" onclick="execDaumPostcode()">주소 찾기</button>
+              </label>    
+              <br>  
+              <label class="DoctorupdateMember-input" for="">    
+                <span></span> 
+                  <input type="text" id="address" placeholder="주소">
+              </label> 
+              <br>     
+              <label class="DoctorupdateMember-input" for="">   
+                <span></span> 
+                  <input type="text" id="detailAddress" placeholder="상세 주소">
               </label>
-              <br>
             </form>
           </div>
           <div class="DoctorupdateMember-botton">          
@@ -153,5 +167,7 @@
           <br>
         </div>
       </footer>
+
+      <script src="./../../../js/myPage/doctor/DoctorupdateMember.js"></script>
 </body>
 </html>
