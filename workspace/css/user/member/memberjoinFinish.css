@@ -17,11 +17,10 @@ main {
   text-align: center;
 }
 
-  p{
-    font-size: 14px;
-  }
-  
-  
+p {
+  font-size: 14px;
+}
+
 h1 {
   color: #28a745;
 }
@@ -47,17 +46,12 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  
 }
-
-
-
 
 .member-joinFinish-button:hover {
   background-color: #2a8a70;
 }
 
-main{
+main {
   height: 300px;
 }
-
