@@ -6,7 +6,13 @@ const messages = [
   "비밀번호가 필요합니다",
   "비밀번호확인이 필요합니다",
   "이름이 필요합니다",
+  "우편번호가 필요합니다",
+  "주소가 필요합니다",
+  "상세주소가 필요합니다",
   "전화번호가 필요합니다",
+  "병원이름이 필요합니다",
+  "면호번호가 필요합니다",
+  "진료과목이 필요합니다"
 ];
 
 focusBtn.forEach((inputGroup, index) => {
@@ -70,6 +76,8 @@ focusBtn.forEach((inputGroup, index) => {
   }
 });
 
+
+
 //    8) 비밀번호칸 토글 버튼
 const viewicon1 = document.querySelector(".Doctor-view-first");
 const viewicon2 = document.querySelector(".Doctor-view-second");
@@ -118,7 +126,16 @@ agreeAllCheckbox.addEventListener('change', () => {
   });
 });
 
-//    10) 가입버튼 눌렀을 때 입력 안된 창 있으면 "입력란 확인" 모달 창 띄우기
+// 개별 체크박스 클릭 이벤트
+agreeCheckboxes.forEach(checkbox => {
+  checkbox.addEventListener('change', () => {
+    // 전체 동의 체크박스 상태를 업데이트
+    const allChecked = Array.from(agreeCheckboxes).every(checkbox => checkbox.checked);
+    agreeAllCheckbox.checked = allChecked;
+  });
+});
+
+// 가입 버튼 클릭 이벤트
 document.querySelector(".signup-btn").addEventListener("click", function (event) {
   event.preventDefault();
   const inputs = document.querySelectorAll("input[required]");
@@ -127,20 +144,21 @@ document.querySelector(".signup-btn").addEventListener("click", function (event)
 
   // 입력란 확인
   inputs.forEach((input) => {
-      if (!input.value) {
-          allFilled = false;
-      }
+    if (!input.value) {
+      allFilled = false;
+    }
   });
 
   // 체크박스 확인
   const allCheckboxesChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
 
   if (!allFilled || !allCheckboxesChecked) {
-      alert("입력란과 체크박스를 확인하세요."); // alert 창 표시
+    alert("입력란과 체크박스를 확인하세요."); // alert 창 표시
   } else {
-      window.location.href = "memberJoinfinish.html"; // 이동
+    window.location.href = "memberJoinfinish.html"; // 이동
   }
 });
+
 
 // 우편번호 api
 function execDaumPostcode() {
