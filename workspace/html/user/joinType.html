@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DoctorList-채팅목록</title>
-    <link rel="stylesheet" href="./../../css/clinicMember/chatList.css">
+    <title>DoctorTreat - 회원가입 유형</title>
+    <link rel="stylesheet" href="./../../css/user/joinType.css">
     <link rel="stylesheet" href="./../../css/main/basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -34,7 +34,7 @@
                                 <div>로그인</div>
                             </div>
                         </a>
-                        <a href="./../../html/user/member/memberjoin.html">
+                        <a href="./../../html/user/joinType.html">
                             <div class="header-quickBtn">
                                 <img src="./../../image/memberJoin.png">
                                 <div>회원가입</div>
@@ -82,62 +82,11 @@
         </div>
     </header>
     <main>
-        <!-- 채팅목록 타이틀-->
-        <div class="chatList-choice">채팅목록</div>
-        <!-- 채팅목록 과별 -->
-        <div class="chatList-department">
-            <div class="chatList-otolaryngology">이비인후과</div>
-            <div class="chatList-medicine">내과</div>
-        </div>
-        <!-- 채팅목록 의사 상세-->
-        <div class="chatList-container">
-            <div class="chatList-container-detail">
-                <div class="chatList-wrap-ear">
-
-                    <div class="chatList-ear">
-                        <a href="./../../html/clinicMember/chatRoom.html">
-                            <div class="chatList-name">정승환</div>
-                            <div class="chatList-License-number">12345678</div>
-                        </a>
-                    </div>
-                    <div class="chatList-img">
-                        <img src="./../../image/hospital.png">
-                    </div>
-                </div>
-                <div class="chatList-wrap-ear">
-                    <div class="chatList-ear">
-                        <a href="./../../html/clinicMember/chatRoom.html">
-                            <div class="chatList-name">이재서</div>
-                            <div class="chatList-License-number">12345678</div>
-                        </a>
-                    </div>
-                    <div class="chatList-img">
-                        <img src="./../../image/hospital.png">
-                    </div>
-                </div>
-                <div class="chatList-wrap-medicine-top">
-                    <div class="chatList-ear">
-                        <a href="./../../html/clinicMember/chatRoom.html">
-                            <div class="chatList-name">김승진</div>
-                            <div class="chatList-License-number">12345678</div>
-                        </a>
-                    </div>
-                    <div class="chatList-img">
-                        <img src="./../../image/hospital.png">
-                    </div>
-                </div>
-                <div class="chatList-wrap-medicine-bottom">
-                    <div class="chatList-ear">
-                        <a href="./../../html/clinicMember/chatRoom.html">
-                            <div class="chatList-name">양혁수</div>
-                            <div class="chatList-License-number">12345678</div>
-                        </a>
-                    </div>
-                    <div class="chatList-img">
-                        <img src="./../../image/hospital.png">
-                    </div>
-                </div>
-            </div>
+        <!-- 회원 유형 선택 -->
+        <div class="jointype-choice">회원 유형</div>
+        <div class="jointype-sort">
+            <div class="jointype-member"><a href="./../../html/user/member/memberjoin.html">일반 회원</a></div>
+            <div class="jointype-doctor"><a href="./../../html/user/doctor/Doctorjoin.html">의료 회원</a></div>
         </div>
     </main>
     <footer>
@@ -168,8 +117,6 @@
             <br>
         </div>
     </footer>
-
-
 </body>
 
 </html>
