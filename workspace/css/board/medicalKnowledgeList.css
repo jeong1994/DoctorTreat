@@ -107,9 +107,14 @@ li {
     height: 70px;
     font-size: 18px;
     font-weight: bold;
+    border: none;
     border-radius: 7px;
     margin: 0 auto 20px auto;
     color: white;
     background-color: #37aa8b;
     cursor: pointer;
 }
+
+.medicalKnowledgeList-goWrite:hover{
+    background-color: #2e9278
+  }
