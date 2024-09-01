@@ -1,40 +1,42 @@
-.DoctorOut-main-container{
+.DoctorOut-main-container {
     width: 980px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 70px;
     height: 600px;
 }
-.DoctorOut-title{
+
+.DoctorOut-title {
     color: #37aa8b;
     font-size: 25px;
     font-weight: bold;
     margin-top: 40px;
 }
+
 .DoctorOut-idtext,
-.DoctorOut-pwtext{
+.DoctorOut-pwtext {
     font-size: 14px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.DoctorOut-inputbox{
+
+.DoctorOut-inputbox {
     width: 980px;
     margin: 0 auto;
     align-items: center;
     display: flex;
     justify-content: center;
-    
     margin-bottom: 60px;
     margin-top: 20px;
 }
 
-.DoctorOut-inputbox input{
+.DoctorOut-inputbox input {
     width: 450px;
     height: 50px;
     margin-top: 10px;
 }
 
-.DoctorOut-btn{
+.DoctorOut-btn {
     margin: 0 auto;
     width: 350px;
     height: 50px;
@@ -51,9 +53,11 @@
     align-items: center;
     border: none;
 }
-.DoctorOut-btn:hover{
+
+.DoctorOut-btn:hover {
     background-color: #2a8a70;
 }
+
 .DoctorOut-input-field.focus {
     border: 1px solid blue;
 }
@@ -62,10 +66,14 @@
     border: 1px solid red;
 }
 
+.DoctorOut-btn a {
+    color: white;
+}
 
 
 /* 회원탈퇴 모달창 css */
-.DoctorOut-modal{
+
+.DoctorOut-modal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +86,7 @@
     border-radius: 7px;
 }
 
-.DoctorOut-modal-content{
+.DoctorOut-modal-content {
     width: 300px;
     height: 100px;
     display: flex;
@@ -87,7 +95,8 @@
     align-items: center;
     padding: 20px;
 }
-.DoctorOut-modal button{
+
+.DoctorOut-modal button {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
