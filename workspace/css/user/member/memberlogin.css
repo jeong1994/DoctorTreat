@@ -6,7 +6,6 @@ body {
   margin: 0;
 }
 
-
 main{
   width: 980px;
 }
@@ -23,6 +22,7 @@ main{
   font-size: 14px;
   text-align: center;
   margin-left: 55px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -31,20 +31,24 @@ h1 {
   color: #37aa8b;
   font-size: 25px;
 }
+
 .member-input-group {
   margin-bottom: 15px;
 }
+
 .member-input-group label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
+
 .member-input-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
 }
+
 .member-button {
   background-color: #37aa8b;
   color: white;

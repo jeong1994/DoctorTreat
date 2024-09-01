@@ -5,6 +5,7 @@
     margin-bottom: 70px;
     height: 600px;
 }
+
 .memberPhoneOk-title{
     color: #37aa8b;
     font-size: 25px;
@@ -17,6 +18,7 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .memberPhoneOk-inputbox{
     width: 980px;
     margin: 0 auto;
@@ -26,6 +28,7 @@
     margin-bottom: 60px;
     margin-top: 20px;
 }
+
 .memberPhoneOk-inputbox input{
     width: 450px;
     height: 50px;
@@ -66,14 +69,17 @@
     align-items: center;
     border: none;
 }
+
 .memberPhoneOk-btn a{
     color: white;
     font-size: 16px;
     font-weight: bold;
 }
+
 .memberPhoneOk-requestbtn:hover{
     background-color: #2a8a70;
 }
+
 .memberPhoneOk-btn:hover{
     background-color: #2a8a70;
 }
