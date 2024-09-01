@@ -4,11 +4,8 @@
   padding: 0;
 }
 
-
-
 .member-signup-container {
   background-color: #fff;
-  /* padding: 20px; */
   border-radius: 8px;
   max-width: 400px;
   margin: 0 auto;
@@ -89,7 +86,6 @@
   background-color: #37aa8b;
   color: white;
   border: none;
-  /* padding: 10px; */
   cursor: pointer;
   border-radius: 25px;
   transition: background-color 0.3s;
@@ -134,9 +130,7 @@
   right: 10px;
   top: 5px;
   display: block;
-
 }
-
 
 .memberjoin-noview-first {
   width: 30px;
@@ -146,6 +140,7 @@
   top: 5px;
   display: none;
 }
+
 .memberjoin-noview-second {
   width: 30px;
   height: 30px;

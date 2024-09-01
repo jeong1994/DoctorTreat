@@ -89,26 +89,35 @@
         <div class="member-input-group">
           <label for="username">아이디</label>
           <input type="text" id="username" name="username" required>
+          <div class="memberjoin-Null"></div> <!-- 메시지 표시 공간 -->
         </div>
         <div class="member-input-group">
           <label for="password">비밀번호</label>
           <input type="password" id="password" name="password" required>
+          <div class="memberjoin-Null"></div> <!-- 메시지 표시 공간 -->
         </div>
-        <div class="login-findmessage">
-          <a href="./../../../html/user/member/memberfindId.html"><span>아이디 찾기</span></a>
-          <a href="./../../../html/user/member/memberfindPw.html"><span>비밀번호 찾기</span></a>
+        <div class="member-input-group">
+          <button type="submit"></button>
         </div>
-        <br><br>
-        <input type="checkbox">로그인 상태 유지
-        <br><br>
-        <button type="submit" class="member-button"><a href="./../../../html/main/main.html">로그인</a></button>
       </form>
-      <br><br>
-      <span class="member-login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
-      <br><br>
-      <button type="submit" class="member-button"><a href="./../../../html/user/member/memberjoin.html">개인회원 가입하기</a></button>
-      <br><br>
-      <button type="submit" class="member-button"><a href="./../../../html/user/doctor/Doctorjoin.html">의사회원 가입하기</button></a>
+    <br>
+    <div class="memberlogin-findmessage">
+      <a href="./../../../html/user/member/memberfindId.html"><span>아이디 찾기</span></a>
+      <a href="./../../../html/user/member/memberfindPw.html"><span>비밀번호 찾기</span></a>
+    </div>
+
+
+    <br><br>
+    <button type="submit" class="member-button"><a href="./../../../html/main/main.html">로그인</a></button>
+    </form>
+    <br><br>
+    <span class="member-login-messagetwo">DOCTOR TREAT 계정이 없으신가요? 지금 바로 만들어보세요!</span>
+    <br><br>
+    <button type="submit" class="member-button"><a href="./../../../html/user/member/memberjoin.html">개인회원
+        가입하기</a></button>
+    <br><br>
+    <button type="submit" class="member-button"><a href="./../../../html/user/doctor/Doctorjoin.html">의사회원
+        가입하기</button></a>
     </div>
   </main>
   <footer>
@@ -139,7 +148,7 @@
       <br>
     </div>
   </footer>
-  <script src="./../../../js/user/member/login.js"></script>
+  <script src="./../../../js/user/member/memberlogin.js"></script>
 </body>
 
 </html>
