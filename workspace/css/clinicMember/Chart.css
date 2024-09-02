@@ -21,7 +21,7 @@ main {
 
 .writeChart-container {
   width: 75%;
-  height: 70%;
+  height: 80%;
   margin: auto;
   border: 1px solid lightgray;
 }
@@ -75,7 +75,7 @@ input {
   background-color: #37aa8b;
   color: white;
   position: relative;
-  top: 13px;
+  top: 43px;
   float: right;
   cursor: pointer;
 }

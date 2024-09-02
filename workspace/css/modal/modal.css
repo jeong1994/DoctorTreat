@@ -5,7 +5,7 @@
 
 #modalBackground{
   position: absolute;
-  display: none;
+  display: flex;
   justify-items: center;
   align-items: center;
   width: 100%;
